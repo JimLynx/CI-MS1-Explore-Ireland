@@ -88,14 +88,22 @@ footer {
     margin: auto 10%;
 }
 
-
+.copyright i {
+    margin-right: 5px;
+}
+.copyright img {
+    width: 25px;
+    height: auto;
+    vertical-align: text-bottom;
+    margin-left: 5px;
+    opacity: .7;
+}
 /* --- RESPONSIVE RULES --- */
 
 @media only screen and (min-width: 992px) {
 #navbarNav {
     justify-content: flex-end;
-    max-width: fit-content;
-    padding: 20px;
+    max-width: fit-content;  
 }
 .navbar-brand {
     margin: 0px;
