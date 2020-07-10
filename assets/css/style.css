@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Varela+Round&display=swap');
 
 /* --- GLOBAL ---*/
+/* --------- SITE COLOURS ---------*/
+
+.color-primary-0 {color: #606C38}
+
+.color-primary-1 {color: #EEF4DB}
+
+.color-primary-2 {color: #9DAA73}
+
+.color-primary-3 {color: #425012}
+
+.color-primary-4 {color: #242424}
 
 * {
   margin: 0;
@@ -18,6 +29,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #42501230;
+  box-shadow: 0 1px 12px -2px rgba(0,0,0,.2);
 }
 
 .navbar-brand {
