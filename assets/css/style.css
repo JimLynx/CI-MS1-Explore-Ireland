@@ -17,13 +17,20 @@
 #main-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;   
+  justify-content: space-between;
 }
 
-#navbarNav {
-  justify-content: flex-end;
-  max-width: 350px;
+.navbar-brand {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #242424;
 }
+
+.nav-link {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.1rem;
+} 
 
 /* --- HOME/INTRO --- */
 
@@ -48,3 +55,15 @@
 
 
 /* --- RESPONSIVE RULES --- */
+
+@media only screen and (min-width: 992px) {
+#navbarNav {
+    justify-content: flex-end;
+    max-width: fit-content;
+    padding: 20px;
+}
+.navbar-brand {
+    margin: 0px;
+    padding: 20px;
+}
+}
