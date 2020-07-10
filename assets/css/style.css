@@ -14,7 +14,16 @@
 
 /* --- NAVIGATION --- */
 
+#main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;   
+}
 
+#navbarNav {
+  justify-content: flex-end;
+  max-width: 350px;
+}
 
 /* --- HOME/INTRO --- */
 
