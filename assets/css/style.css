@@ -50,7 +50,7 @@
 
 .container {
     max-height: 100vh;
-    max-width: 100%;
+    width: 100%;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -163,6 +163,7 @@ footer {
 @media only screen and (min-width: 578px) {
     .container {
     margin-top: 60px;
+}
 }
 
 @media only screen and (min-width: 768px) {
