@@ -29,7 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #42501230;
+  background-color: #425012;
   box-shadow: 0 1px 12px -2px rgba(0,0,0,.2);
 }
 
@@ -47,6 +47,26 @@
 
 /* --- HOME/INTRO --- */
 
+.container {
+    max-height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    z-index: -1;
+}
+
+#intro {
+    background-image: url("/assets/images/ei-hero.png");
+    background-color: #00000075;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    height: 100vh;    
+    z-index: 1;
+}
 
 
 /* --- ABOUT/TRIPS --- */
@@ -64,13 +84,12 @@
 /* --- FOOTER --- */
 
 footer {
-    position: absolute;
     width: 100%;
     bottom: 0px;    
     height: 2.5rem;
-    background-color: #42501230;
+    background-color: #425012;
     box-shadow: 0 1px 12px -2px rgba(0,0,0,.2);
-    display: inline-flex;
+    display: flex;
     align-items: center;
 }
 
