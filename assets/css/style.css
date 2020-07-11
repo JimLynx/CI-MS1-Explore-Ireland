@@ -31,6 +31,7 @@
   justify-content: space-between;
   background-color: #EEF4DB;
   box-shadow:  0 0px 20px 1px rgba(0,0,0,.6);
+  padding: 8px 16px;
 }
 
 .navbar-brand {
@@ -49,7 +50,10 @@
 
 .container {
     max-height: 100vh;
+    max-width: 100%;
     position: absolute;
+    display: flex;
+    justify-content: center;
     margin-top: 25px;
     padding: 0px 10px;
     z-index: -1;
@@ -145,6 +149,34 @@ footer {
 }
 /* --- RESPONSIVE RULES --- */
 
+@media only screen and (min-width: 375px) {
+    .container {
+    margin-top: 45px;
+    }
+}
+@media only screen and (min-width: 480px) {
+    .container {
+    margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 578px) {
+    .container {
+    margin-top: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+    margin-top: 80px;
+    }
+    .intro-text {
+        width: 66.666%;
+    }
+    .intro-text {
+    width: 400px;
+}
+} 
+
 @media only screen and (min-width: 992px) {
 #navbarNav {
     justify-content: flex-end;
@@ -154,4 +186,12 @@ footer {
     margin: 0px;
     padding: 10px;
 }
+ .container {  
+    margin-left: 80px; 
+    justify-content: flex-start
+}
+.intro-text {
+    width: 500px;
+}
+
 }
