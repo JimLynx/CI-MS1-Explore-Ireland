@@ -50,10 +50,8 @@
 .container {
     max-height: 100vh;
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 35px;
+    margin-top: 25px;
+    padding: 0px 10px;
     z-index: -1;
 }
 
@@ -66,6 +64,23 @@
     position: relative;
     height: 100vh;    
     z-index: 1;
+}
+
+.intro-text {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: -1px;
+    text-align: center;
+}
+
+hr {
+    background-color: #fafafa;
+}
+
+.intro-text span {
+    letter-spacing: 15px;
 }
 
 .h1-green {
