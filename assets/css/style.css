@@ -105,7 +105,15 @@ hr {
 
 /* --- GALLERY --- */
 
+#gallery {
+    height: 100vh;
+    background-color: #4250122d;
+    z-index: -1;
+}
 
+.carousel {
+    top: 33.333%;
+}
 
 /* --- CONTACT --- */
 
@@ -121,6 +129,7 @@ footer {
     box-shadow: 0 1px 12px -2px rgba(0,0,0,.2);
     display: flex;
     align-items: center;
+    position:  fixed;
 }
 
 .social {
@@ -193,6 +202,9 @@ footer {
 }
 .intro-text {
     width: 500px;
+}
+.carousel {
+    top: 0%;
 }
 
 }
