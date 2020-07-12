@@ -1,6 +1,6 @@
 # Explore Ireland
 
-<-- logo here -->
+-- logo here --
 
 The aim of this project is to **grow community involvement and spread awareness** to 4x4 enthusiast about getting outdoors again after COVID restrictions have lifted. 
 
@@ -219,7 +219,8 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 > - ##### Media
 
-> The photos, logo and imagery used in this project are *owned and provided by myself*
+> The main photos, logo and imagery used in this project are *owned and provided by myself*
+> Cracked Mud photo (gallery carousel background for mobile devices) credited to Santiago Manuel De la Colina and obtained from [Pexels](https://www.pexels.com/photo/dry-cracked-mud-3631542/)
 
 > - ##### Content
 
@@ -228,6 +229,10 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - ##### Bootsrap 4 CDN Boilerplate 
 
 > I've taken advantage of *Simen Dahilin's* template boilerplate from his [Marketplace](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet) 
+
+> - ##### Code Snippets
+
+> [CSS-Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) for idea on background image for carousel on mobile devices.
 
 ---
 
