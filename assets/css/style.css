@@ -115,9 +115,8 @@ hr {
 
 /* --- GALLERY --- */
 
-#gallery {
+#gallery  {
     height: 100vh;
-    background-color: #4250122d;
     position: relative;
 }
 
@@ -140,6 +139,23 @@ hr {
 }
 
 /* --- CONTACT --- */
+
+#contact {
+    min-height: 100vh;
+    position: relative;
+}
+
+#contact::after {
+  content: "";
+  background: url("https://res.cloudinary.com/jimlynx/image/upload/v1593419285/WILD-Land%20Rovers/connemara-view1.jpg");
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
 
 
 
