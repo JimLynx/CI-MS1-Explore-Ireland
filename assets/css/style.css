@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin&family=Varela+Round&display=swap");
 
-/* --- GLOBAL ---*/
 /* --------- SITE COLOURS ---------*/
 
 .color-primary-0 {
@@ -22,6 +21,8 @@
 .color-primary-4 {
   color: #242424;
 }
+
+/* --- GLOBAL ---*/
 
 * {
   margin: 0;
@@ -146,7 +147,7 @@ hr {
 #gallery {
   height: 100vh;
   position: relative;
-} 
+}
 
 #gallery::after {
   content: "";
@@ -220,7 +221,7 @@ footer {
 
 .copyright {
   width: 60%;
-  margin: auto 5%;
+  margin: auto 8px;
 }
 
 .copyright i {
@@ -298,64 +299,62 @@ footer {
     padding: 40px;
     margin: 80px 35px;
   }
+}
 
-  @media only screen and (min-width: 768px) {
-    .container {
-      margin-top: 80px;
-    }
-    .intro-text {
-      width: 66.666%;
-    }
-    .intro-text {
-      width: 400px;
-    }
-    form {
-      padding: 45px;
-    }
+@media only screen and (min-width: 768px) {
+  .container {
+    margin-top: 80px;
+  }
+  .intro-text {
+    width: 66.666%;
+  }
+  .intro-text {
+    width: 400px;
+  }
+  form {
+    padding: 45px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #navbarNav {
+    justify-content: flex-end;
+    max-width: fit-content;
+  }
+  .navbar-brand {
+    margin: 0px;
+    padding: 10px;
+  }
+  .container {
+    margin-left: 80px;
+    justify-content: flex-start;
+  }
+  .intro-text {
+    width: 500px;
+  }
+  #gallery {
+    max-height: 100vh;
+  }
+  #gallery i {
+    font-size: 200%;
+  }
+  .carousel {
+    top: 0%;
+    border: none;
+    max-height: 100vh;
+    overflow: hidden;
+  }
+  .carousel-indicators {
+    margin-bottom: 80px;
   }
 
-  @media only screen and (min-width: 992px) {
-    #navbarNav {
-      justify-content: flex-end;
-      max-width: fit-content;
-    }
-    .navbar-brand {
-      margin: 0px;
-      padding: 10px;
-    }
-    .container {
-      margin-left: 80px;
-      justify-content: flex-start;
-    }
-    .intro-text {
-      width: 500px;
-    }
-    #gallery {
-        max-height: 100vh;
-    }
-    #gallery i {
-    font-size: 200%;    
-}
-    .carousel {
-      top: 0%;
-      border: none;
-      max-height: 100vh;
-      overflow: hidden;
-    }
-    .carousel-indicators {
-    margin-bottom: 80px;
-    }
-
-    .social i {
-      font-size: 1.2rem;
-    }
-    #contact {
-      height: 100vh;
-      margin-top: 40px;
-      margin-bottom: -40px;
-    }
-    form {
-      padding: 50px;
-    }
+  .social i {
+    font-size: 1.2rem;
+  }
+  #contact {
+    max-height: 100vh;
+  }
+  form {
+    padding: 50px;
   }
 }
