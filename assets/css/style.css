@@ -168,6 +168,7 @@ hr {
 /* --- CONTACT --- */
 
 #contact {
+    min-height: 100vh;
   background: url("https://res.cloudinary.com/jimlynx/image/upload/v1593419285/WILD-Land%20Rovers/connemara-view1.jpg");
   background-size: cover;
   background-position: center;
@@ -181,6 +182,9 @@ form {
   border-radius: 8px;
   padding: 25px;
   margin: 80px 10px;
+  height: fit-content;
+    align-self: center;
+    max-width: 500px;
 }
 
 form h2 {
@@ -265,6 +269,10 @@ footer {
   .container {
     margin-top: 45px;
   }
+  form {
+    padding: 30px;
+    margin: 80px 20px;
+  }
 }
 @media only screen and (min-width: 480px) {
   .container {
@@ -273,12 +281,19 @@ footer {
   .social i {
     font-size: 1.1rem;
   }
+  form {
+    padding: 35px;
+    margin: 80px 30px;
+  }
 }
 
 @media only screen and (min-width: 578px) {
   .container {
     margin-top: 60px;
   }
+  form {
+    padding: 40px;
+    margin: 80px 35px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -290,6 +305,9 @@ footer {
   }
   .intro-text {
     width: 400px;
+  }
+  form {
+    padding: 45px;
   }
 }
 
@@ -312,12 +330,16 @@ footer {
   .carousel {
     top: 0%;
   }
-
   .social i {
     font-size: 1.2rem;
   }
-
   #contact {
     height: 100vh;
-  }
+    margin-top: 40px;
+    margin-bottom: -40px;
+      }
+    form {
+    padding: 50px;
+    }
+}
 }
