@@ -108,7 +108,7 @@ h2 {
 
 .intro-text h2 {
   color: #fafafa;
-  margin: 1.1rem 0.5rem;
+  margin: 1.1rem 0rem;
 }
 
 .intro-text h1 {
@@ -168,26 +168,34 @@ hr {
 /* --- CONTACT --- */
 
 #contact {
-  min-height: 100vh;
-  position: relative;
-}
-
-#contact::after {
-  content: "";
-  background: url("https://res.cloudinary.com/jimlynx/image/upload/v1593419285/WILD-Land%20Rovers/connemara-view1.jpg")
-    right center;
+  background: url("https://res.cloudinary.com/jimlynx/image/upload/v1593419285/WILD-Land%20Rovers/connemara-view1.jpg");
   background-size: cover;
-  opacity: 0.4;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
+  background-position: center;
+  display: flex;
+  justify-content: center;
 }
 
 form {
-  background-color: #42501240;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  border-radius: 8px;
+  padding: 25px;
+  margin: 80px 10px;
+}
+
+form h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #fafafa;
+  border-radius: 4px;
 }
 
 /* --- FOOTER --- */
@@ -307,5 +315,9 @@ footer {
 
   .social i {
     font-size: 1.2rem;
+  }
+
+  #contact {
+    height: 100vh;
   }
 }
