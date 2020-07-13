@@ -1,17 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Varela+Round&display=swap");
 
 /* --- GLOBAL ---*/
 /* --------- SITE COLOURS ---------*/
 
-.color-primary-0 {color: #606C38}
+.color-primary-0 {
+  color: #606c38;
+}
 
-.color-primary-1 {color: #EEF4DB}
+.color-primary-1 {
+  color: #eef4db;
+}
 
-.color-primary-2 {color: #9DAA73}
+.color-primary-2 {
+  color: #9daa73;
+}
 
-.color-primary-3 {color: #425012}
+.color-primary-3 {
+  color: #425012;
+}
 
-.color-primary-4 {color: #242424}
+.color-primary-4 {
+  color: #242424;
+}
 
 * {
   margin: 0;
@@ -21,7 +31,25 @@
 
 /* --- GENERAL ---*/
 
+body {
+  font-family: "Cabin", sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
 
+h1 {
+  color: #9daa73;
+  font-family: "Varela Round", sans-serif;
+  letter-spacing: 3px;
+}
+
+h2 {
+  color: #425012;
+  font-family: "Varela Round", sans-serif;
+  letter-spacing: 2px;
+}
 
 /* --- NAVIGATION --- */
 
@@ -29,76 +57,77 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #EEF4DB;
-  box-shadow:  0 0px 20px 1px rgba(0,0,0,.6);
+  background-color: #eef4db;
+  box-shadow: 0 0px 20px 1px rgba(0, 0, 0, 0.6);
   padding: 8px 16px;
 }
 
 .navbar-brand {
-    font-family: 'Varela Round', sans-serif;
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: #242424;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #242424;
 }
 
 .nav-link {
-    font-family: 'Varela Round', sans-serif;
-    font-size: 1.1rem;
-} 
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.1rem;
+}
 
 /* --- HOME/INTRO --- */
 
 .container {
-    max-height: 100vh;
-    width: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    padding: 0px 10px;
-    z-index: -1;
+  max-height: 100vh;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  padding: 0px 10px;
+  z-index: -1;
 }
 
 #intro {
-    background-image: url("/assets/images/ei-hero.png");
-    background-color: #00000035;
-    background-blend-mode: overlay;
-    background-size: cover;
-    background-position: bottom;
-    position: relative;
-    height: 100vh;    
-    z-index: 1;
+  background-image: url("/assets/images/ei-hero.png");
+  background-color: #00000035;
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  height: 100vh;
+  z-index: 1;
 }
 
 .intro-text {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
 }
 
 .intro-text h2 {
-    margin: 1.1rem .5rem;
+  color: #fafafa;
+  margin: 1.1rem 0.5rem;
 }
 
 .intro-text h1 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 hr {
-    background-color: #fafafa;
-    height: 1.5px;
-    width: 75%;
-    margin: 1rem auto;
+  background-color: #fafafa;
+  height: 1.5px;
+  width: 75%;
+  margin: 1rem auto;
 }
 
 .intro-text span {
-    letter-spacing: 15px;
+  letter-spacing: 15px;
 }
 
 .h1-green {
-  color: #169B62;
+  color: #169b62;
 }
 
 .h1-white {
@@ -106,24 +135,22 @@ hr {
 }
 
 .h1-orange {
-  color: #FF8200;
+  color: #ff8200;
 }
 
 /* --- ABOUT/TRIPS --- */
 
-
-
 /* --- GALLERY --- */
 
-#gallery  {
-    height: 100vh;
-    position: relative;
+#gallery {
+  height: 100vh;
+  position: relative;
 }
 
 .carousel {
-    top: 33.333%;    
-    border: 1px solid #425012;
-    box-shadow:  0 0px 20px 1px rgba(0,0,0,.6);
+  top: 33.333%;
+  border: 1px solid #425012;
+  box-shadow: 0 0px 20px 1px rgba(0, 0, 0, 0.6);
 }
 
 #gallery::after {
@@ -135,19 +162,20 @@ hr {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;   
+  z-index: -1;
 }
 
 /* --- CONTACT --- */
 
 #contact {
-    min-height: 100vh;
-    position: relative;
+  min-height: 100vh;
+  position: relative;
 }
 
 #contact::after {
   content: "";
-  background: url("https://res.cloudinary.com/jimlynx/image/upload/v1593419285/WILD-Land%20Rovers/connemara-view1.jpg") right center;
+  background: url("https://res.cloudinary.com/jimlynx/image/upload/v1593419285/WILD-Land%20Rovers/connemara-view1.jpg")
+    right center;
   background-size: cover;
   opacity: 0.4;
   top: 0;
@@ -158,125 +186,126 @@ hr {
   z-index: -1;
 }
 
+form {
+  background-color: #42501240;
+}
+
 /* --- FOOTER --- */
 
 footer {
-    width: 100%;
-    bottom: 0px;    
-    height: 2.5rem;
-    background-color: #EEF4DB;
-    box-shadow: 0 1px 12px -2px rgba(0,0,0,.2);
-    display: flex;
-    align-items: center;
-    position:  fixed;
+  width: 100%;
+  bottom: 0px;
+  height: 2.5rem;
+  background-color: #eef4db;
+  box-shadow: 0 1px 12px -2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  position: fixed;
 }
 
 .copyright {
-    width: 60%;
-    margin: auto 5%;
+  width: 60%;
+  margin: auto 5%;
 }
 
 .copyright i {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .copyright img {
-    width: 25px;
-    height: auto;
-    vertical-align: text-bottom;
-    margin-left: 5px;
-    opacity: .7;
+  width: 25px;
+  height: auto;
+  vertical-align: text-bottom;
+  margin-left: 5px;
+  opacity: 0.7;
 }
 
 .social {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 40%;
-    margin: auto 5%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+  margin: auto 5%;
 }
 
 .social i {
-    font-size: 1rem;
-    margin: 5px;
-    padding: 5px;
+  font-size: 1rem;
+  margin: 5px;
+  padding: 5px;
 }
 
 .fa-facebook {
-    color: #4267B2;
+  color: #4267b2;
 }
 
 .fa-twitter {
-    color: #00acee;
+  color: #00acee;
 }
 
 .fa-youtube-square {
-    color: #ff0000;
+  color: #ff0000;
 }
 
 .fa-instagram {
-    color: #f56040;
+  color: #f56040;
 }
-
 
 /* --- RESPONSIVE RULES --- */
 
 @media only screen and (min-width: 375px) {
-    .container {
+  .container {
     margin-top: 45px;
-    }
+  }
 }
 @media only screen and (min-width: 480px) {
-    .container {
+  .container {
     margin-top: 50px;
-    }
-    .social i {
+  }
+  .social i {
     font-size: 1.1rem;
-    }
+  }
 }
 
 @media only screen and (min-width: 578px) {
-    .container {
+  .container {
     margin-top: 60px;
-}
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .container {
+  .container {
     margin-top: 80px;
-    }
-    .intro-text {
-        width: 66.666%;
-    }
-    .intro-text {
+  }
+  .intro-text {
+    width: 66.666%;
+  }
+  .intro-text {
     width: 400px;
-    }
-} 
+  }
+}
 
 @media only screen and (min-width: 992px) {
-#navbarNav {
+  #navbarNav {
     justify-content: flex-end;
-    max-width: fit-content;  
-    }
-.navbar-brand {
+    max-width: fit-content;
+  }
+  .navbar-brand {
     margin: 0px;
     padding: 10px;
-    }
- .container {  
-    margin-left: 80px; 
-    justify-content: flex-start
-    }
-.intro-text {
+  }
+  .container {
+    margin-left: 80px;
+    justify-content: flex-start;
+  }
+  .intro-text {
     width: 500px;
-
-}
-.carousel {
+  }
+  .carousel {
     top: 0%;
-}
+  }
 
-
-.social i {
+  .social i {
     font-size: 1.2rem;
-    }
+  }
 }
