@@ -72,15 +72,25 @@
 
 .intro-text {
     color: #fafafa;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 10px;
     border-radius: 8px;
-    margin-right: -1px;
     text-align: center;
+}
+
+.intro-text h2 {
+    margin: 1.1rem .5rem;
+}
+
+.intro-text h1 {
+    margin-left: 10px;
 }
 
 hr {
     background-color: #fafafa;
+    height: 1.5px;
+    width: 75%;
+    margin: 1rem auto;
 }
 
 .intro-text span {
