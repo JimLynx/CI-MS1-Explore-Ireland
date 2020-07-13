@@ -136,25 +136,27 @@
     <section id="contact">
         <form>
             <h2>Get in touch</h2>
+                <!-- Form entry -->
                 <label for="fname">First Name</label>
                 <input class="text-input" type="text" id="fname" name="first_name" required/>
                 <label for="lname">Last Name</label>
                 <input class="text-input" type="text" id="lname" name="last_name" required/>
                 <label for="email">Email Address</label>
                 <input class="text-input" id="email" type="email" name="email_address" required/>
-                
-                <label for="day">Day Trips</label>
+                <hr>
+                <!-- Radio buttons -->                
                 <input id="day" type="radio" name="trip_preference" value="day" required/>
-                <label for="camp">Camping</label>
+                <label for="day">Day Trips</label>
                 <input id="camp" type="radio" name="trip_preference" value="camp"/>
-                <label for="adventure">4x4 Adventures</label>
+                <label for="camp">Camping</label>
                 <input id="adventure" type="radio" name="trip_preference" value="adventure"/>
-                <label for="events">Special Events</label>
+                <label for="adventure">4x4 Adventures</label>
                 <input id="events" type="radio" name="trip_preference" value="events"/>
+                <label for="events">Special Events</label>
 
                 <label for="all">Open to all options!</label>
                 <input id="all" type="radio" name="trip_preference" value="all"/>
-                
+                <!-- Submit button -->
                 <input type="submit" value="Send!">
         </form>
     </section>
