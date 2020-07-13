@@ -147,7 +147,8 @@ hr {
 
 #contact::after {
   content: "";
-  background: url("https://res.cloudinary.com/jimlynx/image/upload/v1593419285/WILD-Land%20Rovers/connemara-view1.jpg");
+  background: url("https://res.cloudinary.com/jimlynx/image/upload/v1593419285/WILD-Land%20Rovers/connemara-view1.jpg") right center;
+  background-size: cover;
   opacity: 0.4;
   top: 0;
   left: 0;
@@ -156,8 +157,6 @@ hr {
   position: absolute;
   z-index: -1;
 }
-
-
 
 /* --- FOOTER --- */
 
