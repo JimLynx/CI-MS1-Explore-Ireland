@@ -170,7 +170,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - Bracket pair Colouriser
 > - Code Spellchecker
 
-### References for learning
+### Resources 
 
 > - [Code Institute Course Content](https://courses.codeinstitute.net/) - Main source of fundamental knowledge
 > - Code Institute **SLACK Community** - Main source of assistance
@@ -180,7 +180,8 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - [W3.CSS](https://www.w3schools.com/w3css/4/w3.css) - General 'go-to' for assistance
 > - [CommonMark](https://commonmark.org/help/) - For Markdown language reference
 > - [FlexBox Froggy Game](http://flexboxfroggy.com/) - Learning platform for FlexBox
-> - [Coolors](https://coolors.co/) -  find matching colors for the website
+> - [Coolors](https://coolors.co/) -  find matching color palette for site
+> - [TinyPNG](https://tinypng.com/) - Efficient compression of images for site
 
 ---
 
@@ -233,7 +234,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - ##### Code Snippets
 
 > [CSS-Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) for idea on background image for carousel on mobile devices.
-
+> [Code Institute](https://codeinstitute.net/)  Inspiration for contact form from 'Love Running' Mini-Project in CSS Module
 ---
 
 ### Acknowledgments
