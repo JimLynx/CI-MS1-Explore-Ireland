@@ -166,9 +166,17 @@ section {
 /* --- ABOUT/TRIPS --- */
 
 #about {
-    height: 100vh;
+    min-height: 100vh;
+
 }
 
+.container-fluid {
+    padding: 60px 15px;
+}
+
+.card {
+    margin: 15px 0px;
+}
 
 /* --- GALLERY --- */
 
@@ -404,6 +412,10 @@ footer {
   .container {
     margin-top: 80px;
   }
+
+  .container-fluid {
+    padding: 56px 15px;
+}
 
   .intro-text {
     width: 66.666%;

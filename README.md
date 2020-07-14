@@ -204,7 +204,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 > CSS 						-	[W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 
-> CSS Prefixes             -   [Autoprefixer](https://autoprefixer.github.io/) - CSS vendor prefixer
+> CSS Prefixes              -   [Autoprefixer](https://autoprefixer.github.io/) - CSS vendor prefixer
 
 > README					-	[Typora](https://typora.io/) - app for Live-Preview of Markup 
 
