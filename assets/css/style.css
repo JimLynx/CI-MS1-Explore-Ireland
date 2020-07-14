@@ -89,7 +89,7 @@ h2 {
 }
 
 #intro {
-  background-image: url("/assets/images/ei-hero.png");
+  background-image: url("../images/hero.png");
   background-color: #00000035;
   background-blend-mode: overlay;
   background-size: cover;
@@ -170,7 +170,7 @@ h2 {
 
 #contact {
   min-height: 100vh;
-  background: url("https://res.cloudinary.com/jimlynx/image/upload/v1593419285/WILD-Land%20Rovers/connemara-view1.jpg");
+  background: url("../images/lake-view.png");
   background-size: cover;
   background-position: center;
   display: flex;
