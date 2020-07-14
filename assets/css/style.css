@@ -52,6 +52,10 @@ h2 {
   letter-spacing: 2px;
 }
 
+section {
+    box-shadow: 0 0px 10px -2px rgba(0, 0, 0, 0.6);
+}
+
 /* --- NAVIGATION --- */
 
 #main-nav {
@@ -163,7 +167,7 @@ h2 {
 .carousel {
   top: 33.333%;
   border: 1px solid #425012;
-  box-shadow: 0 0px 20px 1px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0px 16px -2px rgba(0, 0, 0, 0.6);
 }
 
 /* --- CONTACT --- */
@@ -177,6 +181,7 @@ h2 {
   justify-content: center;
 }
 
+/* --- Credit: Form background inspiration from CI Love Running mini-project ---*/
 form {
   color: #fafafa;
   background-color: rgba(60, 60, 60, 0.7);
@@ -190,13 +195,10 @@ form {
 }
 
 form h2 {
-  color: #eef4db;
+  text-align: center;
+  color:#eef4db;
   margin-bottom: 20px;
   font-size: 1.9rem;
-}
-
-.fa-paper-plane {
-    color: orange;
 }
 
 .text-input {
@@ -219,6 +221,30 @@ form h2 {
 
 .send-hr {
     background-color: #eef4db;
+}
+
+/* --- Credit: button colour-slide inspiration from https://jsfiddle.net/shuvamallick/3o0h5oka/ ---*/ 
+.send-btn {
+    width: 100px;
+    display: flex;
+    margin: 5px auto;
+    justify-content: center; 
+    border-radius: 8px;
+    background-color: #eef4db;
+    border: 1px solid #425012;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #425012;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+}
+
+.send-btn:hover {
+    box-shadow: inset 100px 0 0 0 #425012;
+    border: 1px solid #eef4db;
+    color:  #eef4db;
 }
 
 /* --- FOOTER --- */
