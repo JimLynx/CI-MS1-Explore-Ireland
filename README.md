@@ -204,8 +204,11 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 > CSS 						-	[W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 
+> CSS Prefixes             -   [Autoprefixer](https://autoprefixer.github.io/) - CSS vendor prefixer
+
 > README					-	[Typora](https://typora.io/) - app for Live-Preview of Markup 
 
+>
 ---
 
 ### Version Control
@@ -218,24 +221,24 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 ### Credits
 
-> - ##### Media
+> ##### Media
 
-> The main photos, logo and imagery used in this project are *owned and provided by myself*
-> Cracked Mud photo (gallery carousel background for mobile devices) credited to Santiago Manuel De la Colina and obtained from [Pexels](https://www.pexels.com/photo/dry-cracked-mud-3631542/)
+> - The main photos, logo and imagery used in this project are *owned and provided by myself*
+> - Cracked Mud photo (gallery carousel background for mobile devices) credited to Santiago Manuel De la Colina and obtained from [Pexels](https://www.pexels.com/photo/dry-cracked-mud-3631542/)
 
-> - ##### Content
+> ##### Content
 
 > All text content is *self-written*
 
-> - ##### Bootsrap 4 CDN Boilerplate 
+> ##### Bootsrap 4 CDN Boilerplate 
 
-> I've taken advantage of *Simen Dahilin's* template boilerplate from his [Marketplace](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet) 
+> - I've taken advantage of *Simen Dahilin's* template boilerplate from his [Marketplace](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet) 
 
-> - ##### Code Snippets
+> ##### Code Snippets
 
-> [CSS-Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) for idea on background image for carousel on mobile devices.
-> [Code Institute](https://codeinstitute.net/)  Inspiration for contact form from 'Love Running' Mini-Project in CSS Module.
-> [Shuva Mallick](https://jsfiddle.net/shuvamallick/3o0h5oka/) Inspiration code for Submit button colour slide effect.
+> - [CSS-Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) for idea on background image for carousel on mobile devices.
+> - [Code Institute](https://codeinstitute.net/)  Inspiration for contact form from 'Love Running' Mini-Project in CSS Module.
+> - [Shuva Mallick](https://jsfiddle.net/shuvamallick/3o0h5oka/) Inspiration code for Submit button colour slide effect.
 
 ---
 
