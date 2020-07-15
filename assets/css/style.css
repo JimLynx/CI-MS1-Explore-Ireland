@@ -209,6 +209,10 @@ section {
   box-shadow: 0 0px 16px -2px rgba(0, 0, 0, 0.6);
 }
 
+.carousel-indicators {
+  visibility: hidden;
+}
+
 /* --- CONTACT --- */
 
 #contact {
@@ -433,6 +437,9 @@ footer {
   form {
     padding: 45px;
   }
+  .carousel-indicators {
+  visibility: visible;
+}
 }
 
 @media only screen and (min-width: 992px) {
