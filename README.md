@@ -239,7 +239,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - [CSS-Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) for idea on background image for carousel on mobile devices.
 > - [Code Institute](https://codeinstitute.net/)  Inspiration for contact form from 'Love Running' Mini-Project in CSS Module.
 > - [Shuva Mallick](https://jsfiddle.net/shuvamallick/3o0h5oka/) Inspiration code for Submit button colour slide effect.
-> - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns)
+> - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns) Code idea for cards inside Jumbotron 
 ---
 
 ### Acknowledgments
