@@ -195,7 +195,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 ### Project barriers and the solutions
 
 > - Bootstrap carousel works fine on desktop views with landscape images, but on mobile created large white space underneath. I overcame this by centering the carousel on mobile devices, and giving it a soft background in line with colour palette.
-
+> - About Section 'cards' were aligning fine, but uneven bottom according to how much text entered in each. Overcame by researching online and finding a workable solution on Stack Overflow using Boostrap's d-flex and flex-fill values.
 ---
 
 ### Code validity
@@ -239,7 +239,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - [CSS-Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) for idea on background image for carousel on mobile devices.
 > - [Code Institute](https://codeinstitute.net/)  Inspiration for contact form from 'Love Running' Mini-Project in CSS Module.
 > - [Shuva Mallick](https://jsfiddle.net/shuvamallick/3o0h5oka/) Inspiration code for Submit button colour slide effect.
-
+> - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns)
 ---
 
 ### Acknowledgments
