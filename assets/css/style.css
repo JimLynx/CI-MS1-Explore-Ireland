@@ -59,11 +59,6 @@ h2 {
   letter-spacing: 2px;
 }
 
-section {
-  -webkit-box-shadow: 0 0px 10px -2px rgba(0, 0, 0, 0.6);
-  box-shadow: 0 0px 10px -2px rgba(0, 0, 0, 0.6);
-}
-
 /* --- NAVIGATION --- */
 
 #main-nav {
@@ -169,10 +164,6 @@ section {
   min-height: 100vh;
 }
 
-.container-fluid {
-  padding: 60px 15px;
-}
-
 .card {
   margin: 15px 0px;
   padding: 5px;
@@ -188,7 +179,7 @@ section {
     text-align: center;
     margin-bottom: 1.2rem;
     font-size: 1.4rem;
-}
+} 
 
 /* --- GALLERY --- */
 
@@ -424,11 +415,6 @@ footer {
     .carousel-indicators {
     visibility: visible;
     }
-    .card {
-    width: 80%;
-    min-height: 1000px;
-    margin: 70px auto 0px;
-    }
     .card h2  {
     margin-bottom: 1.8rem;
     font-size: 2rem;
@@ -479,7 +465,6 @@ footer {
   }
   .card {     
     text-align: justify;
-    min-height: 850px;
   }
 }
 
