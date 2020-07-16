@@ -168,6 +168,7 @@ h2 {
   margin: 15px 0px;
   padding: 5px;
   border: none;
+  border-radius: 8px;
   box-shadow: 0 1px 12px -2px rgba(0, 0, 0, 0.3);
 }
 
@@ -180,6 +181,14 @@ h2 {
     margin-bottom: 1.2rem;
     font-size: 1.4rem;
 } 
+
+.jumbotron-fluid {
+    background-color: #D3D3D360;
+    padding: 10px 5px;
+    margin: 80px auto;
+    border-radius: 8px;
+}
+
 
 /* --- GALLERY --- */
 
@@ -418,7 +427,12 @@ footer {
     .card h2  {
     margin-bottom: 1.8rem;
     font-size: 2rem;
-}
+    }
+    
+    .jumbotron-fluid {
+        margin: 100px auto;
+    }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -464,7 +478,10 @@ footer {
     margin-left: 30px;
   }
   .card {     
-    text-align: justify;
+    text-align: justify;    
+    margin: 20px 15px;
+    padding: 10px;
+    
   }
 }
 
