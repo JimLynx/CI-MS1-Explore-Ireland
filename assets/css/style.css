@@ -174,6 +174,7 @@ section {
 }
 
 .card {
+  text-align: justify;
   margin: 15px 0px;
   padding: 5px;
   border: none;
@@ -392,7 +393,6 @@ footer {
   .social i {
     font-size: 1.1rem;
   }
-
   form {
     padding: 35px;
     margin: 80px 30px;
@@ -400,35 +400,30 @@ footer {
 }
 
 @media only screen and (min-width: 578px) {
-  form {
-    padding: 40px;
-    margin: 80px 35px;
-  }
+    form {
+        padding: 40px;
+        margin: 80px 35px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-  .container-fluid {
-    widows: 80%;
-    padding: 56px 15px;
-  }
-
-  .intro-text {
+    .intro-text {
     width: 66.666%;
-  }
-
+    }
   .intro-text {
     width: 400px;
-  }
-
-  form {
+    }
+    form {
     padding: 45px;
-  }
-  .carousel-indicators {
+    }
+    .carousel-indicators {
     visibility: visible;
-  }
-  .card {
-    margin: 20px 25px;
-}
+    }
+    .card {
+    width: 80%;
+    height: 800px;
+    margin: 70px auto 0px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -440,44 +435,35 @@ footer {
     max-width: -moz-fit-content;
     max-width: fit-content;
   }
-
   .navbar-brand {
     margin: 0px;
     padding: 10px;
   }
-
   .intro-text {
     width: 500px;
   }
-
   #gallery {
     max-height: 100vh;
   }
-
   #gallery i {
     font-size: 200%;
   }
-
   .carousel-indicators {
     margin-bottom: 80px;
   }
-
   .social i {
     font-size: 1.3rem;
   }
   #contact {
     max-height: 100vh;
   }
-
   form {
     padding: 50px;
     font-size: 1.2rem;
   }
-
   .text-input {
     height: 30px;
   }
-
   .copyright {
     font-size: 1rem;
     margin-left: 30px;
