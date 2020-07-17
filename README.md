@@ -215,24 +215,25 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 ### Version Control
 
----
+> - Used Git for version control.
+> - Branches were created to work on side projects to incorporate later.
+> - The branches were then merged with the master branch.
 
 ### Deployment
 
-This propject has been deployed on GitHub Pages with the following process:
+This project has been deployed on GitHub Pages with the following process:
 
 > - All code was written on Gitpod, an online IDE.
-> - The code was then pushed to GitHub where it is stored in a repository.
-> - Under the settings section of the GitHub repository there is a sub-heading of GitHub Pages.
-> - Branches were created to work on side projects to incorporate later.
-> - The branches  were then merged with the master.
-> - In this section the master brach of the project has been selected.
-> - Then the publish to GitHub Pages button was pressed to publish the site onto Github Pages.
+> - The code was then pushed to GitHub where it is stored in my [Repository](https://github.com/JimLynx/CI-MS1-Explore-Ireland).
+> - Under the [settings](https://github.com/JimLynx/CI-MS1-Explore-Ireland/settings) section of the GitHub repository, scrolled down to GitHub Pages section.
+> - Under 'Source' dropdown, the 'Master branch' was selected.
+> - Once selected, this publishes the project to GitHub Pages and displays the site url.
 > - There is no difference between the deployed version and the development version.
 
-The code can be run locally through clone or download.
-You can do this by opening the repository, clicking on the green and and being in the main 'code' section there is a button 'clone or download'.
-This button will provide a link that you can use on your desktop or download as a ZIP file.
+> - The code can be run locally through clone or download.
+> - You can do this by opening the repository, clicking on the green 'Code' button and and selecting either 'clone or download'.
+> - The Clone option provides a url hat you can use on your desktop
+> - The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
 
 ### Credits
 
@@ -261,6 +262,7 @@ This button will provide a link that you can use on your desktop or download as 
 
 > I would like to thank:
 
+> - My mentor, Brian Macharia, for his guidance, patience and encouragement throughout this project.
 > - Bim Williams and Simen Daehlin for their selfless approach to sharing of their time, experience, skill and knowledge. These sessions and casual chats have allowed me to grow my skill immensely in a  short period of time.
 > - Anthony O'Brien and CI staff for always being on-hand on Slack 
 > - Everyone that takes part in the Slack call meetups, specifically from the #In-It-Together and #Study-Group channel
