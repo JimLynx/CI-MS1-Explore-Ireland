@@ -257,9 +257,9 @@ This button will provide a link that you can use on your desktop or download as 
 > - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns) Code idea for cards inside Jumbotron 
 ---
 
-### Acknowledgments
+> ##### Acknowledgments
 
-I would like to thank:
+> I would like to thank:
 
 > - Bim Williams and Simen Daehlin for their selfless approach to sharing of their time, experience, skill and knowledge. These sessions and casual chats have allowed me to grow my skill immensely in a  short period of time.
 > - Anthony O'Brien and CI staff for always being on-hand on Slack 
