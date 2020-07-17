@@ -189,7 +189,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 > - After initial wireframe design, I checked each navigation item link is working correctly to each Page. I set a *temporary* contrasting background colour to each page to mark out each section.
 > - Tested responsiveness of the wireframe using Dev Tools and confirmed basic structure looks and works well on all mobile decides from 320px, up to desktop size.
-
+> - Tested all links manually to ensure they work and open in new tabs
 ---
 
 ### Project barriers and the solutions
@@ -208,6 +208,8 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 > README					-	[Typora](https://typora.io/) - app for Live-Preview of Markup 
 
+> TAGS                      -   [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) - Validates all tags are opening and closing correctly
+
 >
 ---
 
@@ -217,7 +219,20 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 ### Deployment
 
----
+This propject has been deployed on GitHub Pages with the following process:
+
+> - All code was written on Gitpod, an online IDE.
+> - The code was then pushed to GitHub where it is stored in a repository.
+> - Under the settings section of the GitHub repository there is a sub-heading of GitHub Pages.
+> - Branches were created to work on side projects to incorporate later.
+> - The branches  were then merged with the master.
+> - In this section the master brach of the project has been selected.
+> - Then the publish to GitHub Pages button was pressed to publish the site onto Github Pages.
+> - There is no difference between the deployed version and the development version.
+
+The code can be run locally through clone or download.
+You can do this by opening the repository, clicking on the green and and being in the main 'code' section there is a button 'clone or download'.
+This button will provide a link that you can use on your desktop or download as a ZIP file.
 
 ### Credits
 
