@@ -1,10 +1,3 @@
-	/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 @import url("https://fonts.googleapis.com/css2?family=Cabin&family=Varela+Round&display=swap");
 
 /* --------- SITE COLOURS ---------*/
@@ -37,7 +30,6 @@
 	padding: 0;
 	border: 0;
 }
-
 
 /* --- GENERAL ---*/
 
@@ -78,7 +70,6 @@ section {
 	margin: 8px 0px;
 }
 
-
 /* --- NAVIGATION --- */
 
 #main-nav {
@@ -108,7 +99,6 @@ section {
 	font-family: "Varela Round", sans-serif;
 	font-size: 1.1rem;
 }
-
 
 /* --- HOME/INTRO --- */
 
@@ -182,7 +172,6 @@ section {
 	color: #ff8200;
 }
 
-
 /* --- ABOUT/TRIPS --- */
 
 .card {
@@ -223,39 +212,41 @@ section {
 
 /* --- GALLERY --- */
 
+ #gallery i {
+    font-size: 200%;
+    }
+
+.carousel-indicators {
+    margin-bottom: 40px;
+    }
+
+.carousel-item {
+    max-height: 92vh;    
+}
+
+.image img {
+    margin: 8px 0px;
+}
 
 /* --- CONTACT --- */
 
 #contact {
-	min-height: 100vh;
 	background: url("../images/lake-view.png");
 	background-size: cover;
 	background-position: center;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
 }
-
 
 /* --- Credit: Form background inspiration from CI Love Running mini-project ---*/
 
 form {
+    max-width: 800px;
+    margin: 0 auto 70px;
 	color: #fafafa;
 	background-color: rgba(60, 60, 60, 0.7);
 	border-radius: 8px;
 	padding: 25px;
-	height: -webkit-fit-content;
-	height: -moz-fit-content;
-	height: fit-content;
-	-ms-flex-item-align: center;
-	-ms-grid-row-align: center;
-	align-self: center;
-	-webkit-box-shadow: 0 1px 12px -2px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 1px 12px -2px rgba(0, 0, 0, 0.3);
-	margin-bottom: 100px;
+        -webkit-box-shadow: 0 1px 12px -2px rgba(0, 0, 0, 0.3);
 }
 
 .text-input {
@@ -279,7 +270,6 @@ form {
 .send-hr {
 	background-color: #eef4db;
 }
-
 
 /* --- Credit: button colour-slide inspiration from https://jsfiddle.net/shuvamallick/3o0h5oka/ ---*/
 
@@ -395,6 +385,9 @@ footer {
     .social i {
         font-size: 1.1rem;
     }
+    form {
+    padding: 30px;
+    }
 }
 @media only screen and (min-width: 768px) {
     .page-title {
@@ -409,6 +402,9 @@ footer {
     .card h2 {
         margin-bottom: 1.8rem;
         font-size: 2rem;
+    }
+    form {
+    padding: 35px;
     }
 }
 @media only screen and (min-width: 992px) {
@@ -438,14 +434,9 @@ footer {
     .about-text {
         padding: 35px 35px 0px;
     }
-    #gallery {
-        max-height: 100vh;
-    }
-    #gallery i {
-        font-size: 200%;
-    }
-    .carousel-indicators {
-        margin-bottom: 80px;
+   
+    form {
+    padding: 40px;
     }
     .social i {
         font-size: 1.3rem;
@@ -458,12 +449,10 @@ footer {
         margin-left: 30px;
     }
 }
-@media only screen and (min-width: 1025px) {    
-    .carousel {
-        top: 0%;
-        border: none;
-        max-height: 100vh;
-        overflow: hidden;
+@media only screen and (min-width: 1024px) {    
+
+    form {
+    padding: 40px;
     }
     footer {
         height: 2.8rem;
