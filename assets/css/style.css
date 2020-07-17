@@ -47,15 +47,13 @@ body {
   line-height: 30px;
 }
 
-h1 {
-  color: #fafafa;
+h1, h2 {
+  color: #425012;
   font-family: "Varela Round", sans-serif;
   letter-spacing: 3px;
 }
 
 h2 {
-  color: #425012;
-  font-family: "Varela Round", sans-serif;
   letter-spacing: 2px;
 }
 
@@ -252,23 +250,14 @@ form {
   background-color: rgba(60, 60, 60, 0.7);
   border-radius: 8px;
   padding: 25px;
-  margin: 80px 10px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
-  align-self: center;
-  max-width: 500px;
+  align-self: center;  
   -webkit-box-shadow: 0 1px 12px -2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 12px -2px rgba(0, 0, 0, 0.3);
-}
-
-form h2 {
-  text-align: center;
-  color: #eef4db;
-  margin-bottom: 20px;
-  font-size: 1.9rem;
 }
 
 .text-input {
@@ -400,38 +389,27 @@ footer {
 /* --- RESPONSIVE RULES --- */
 
 @media only screen and (min-width: 375px) {
-  form {
-    padding: 30px;
-    margin: 80px 20px;
-  }
+
 }
 @media only screen and (min-width: 480px) {
   .social i {
     font-size: 1.1rem;
   }
-  form {
-    padding: 35px;
-    margin: 80px 30px;
-  }
 }
 
 @media only screen and (min-width: 578px) {
-    form {
-        padding: 40px;
-        margin: 80px 35px;
-    }
-
+    
 }
 
 @media only screen and (min-width: 768px) {
     .intro-text {
     width: 66.666%;
     }
-  .intro-text {
-    width: 400px;
+    .jumbotron-fluid {
+        margin: 100px auto;
     }
-    form {
-    padding: 45px;
+    .about-text {
+        padding: 25px 25px 0px;
     }
     .carousel-indicators {
     visibility: visible;
@@ -439,13 +417,6 @@ footer {
     .card h2  {
     margin-bottom: 1.8rem;
     font-size: 2rem;
-    }
-    
-    .jumbotron-fluid {
-        margin: 100px auto;
-    }
-    .about-text {
-        padding: 25px 25px 0px;
     }
 }
 
@@ -465,6 +436,14 @@ footer {
   .intro-text {
     width: 500px;
   }
+  .card {     
+    text-align: justify;    
+    margin: 20px 15px;
+    padding: 10px;    
+  }
+  .about-text {
+    padding: 35px 35px 0px;
+    }
   #gallery {
     max-height: 100vh;
   }
@@ -477,13 +456,6 @@ footer {
   .social i {
     font-size: 1.3rem;
   }
-  #contact {
-    max-height: 100vh;
-  }
-  form {
-    padding: 50px;
-    font-size: 1.2rem;
-  }
   .text-input {
     height: 30px;
   }
@@ -491,14 +463,6 @@ footer {
     font-size: 1rem;
     margin-left: 30px;
   }
-  .card {     
-    text-align: justify;    
-    margin: 20px 15px;
-    padding: 10px;    
-  }
-  .about-text {
-    padding: 35px 35px 0px;
-    }
 }
 
 @media only screen and (min-width: 1025px) {
