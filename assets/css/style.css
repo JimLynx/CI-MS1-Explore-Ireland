@@ -57,6 +57,23 @@ h2 {
   letter-spacing: 2px;
 }
 
+section {
+    padding-top: 70px;
+}
+
+.page-title {
+    background-color: #eef4db;
+    margin: 10px 0px;
+    padding: 5px 2px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0px 8px 1px rgba(0, 0, 0, 0.4);
+}
+
+.page-title h2 {
+    margin: 8px 0px;
+}
+
 /* --- NAVIGATION --- */
 
 #main-nav {
@@ -89,6 +106,10 @@ h2 {
 
 /* --- HOME/INTRO --- */
 
+#intro {
+    padding-top: 35px;
+    z-index: -10;
+}
 .intro-box {
   max-height: 100vh;
   width: 100%;
@@ -99,7 +120,6 @@ h2 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-top: 25px;
   padding: 0px 10px;
   z-index: -1;
 }
@@ -182,7 +202,6 @@ h2 {
 
 .jumbotron-fluid {
     padding: 10px 5px;
-    margin: 80px auto;
     border: 2px solid #42501250;
     border-radius: 8px;
     /* box-shadow: 0 1px 12px -2px rgba(0, 0, 0, 0.3); */
@@ -204,6 +223,7 @@ h2 {
 #gallery {
   height: 100vh;
   position: relative;
+  padding: 0px
 }
 
 #gallery::after {
@@ -221,8 +241,6 @@ h2 {
 .carousel {
   top: 33.333%;
   border: 1px solid #425012;
-  -webkit-box-shadow: 0 0px 16px -2px rgba(0, 0, 0, 0.6);
-  box-shadow: 0 0px 16px -2px rgba(0, 0, 0, 0.6);
 }
 
 .carousel-indicators {
@@ -258,6 +276,7 @@ form {
   align-self: center;  
   -webkit-box-shadow: 0 1px 12px -2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 12px -2px rgba(0, 0, 0, 0.3);
+  margin-bottom: 100px;
 }
 
 .text-input {
@@ -402,11 +421,11 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+    section {
+    padding-top: 90px;
+}
     .intro-text {
     width: 66.666%;
-    }
-    .jumbotron-fluid {
-        margin: 100px auto;
     }
     .about-text {
         padding: 25px 25px 0px;
@@ -421,6 +440,9 @@ footer {
 }
 
 @media only screen and (min-width: 992px) {
+        section {
+    padding-top: 105px;
+}
   #navbarNav {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
@@ -465,7 +487,10 @@ footer {
   }
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
+    section {
+    padding-top: 120px;
+}
   .carousel {
     top: 0%;
     border: none;
