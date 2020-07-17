@@ -167,7 +167,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 ##### 4. IDE Extensions
 
 > - Auto nametag
-> - Bracket pair Colouriser
+> - Bracket pair Colourizer
 > - Code Spellchecker
 
 ### Resources 
@@ -189,13 +189,16 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 > - After initial wireframe design, I checked each navigation item link is working correctly to each Page. I set a *temporary* contrasting background colour to each page to mark out each section.
 > - Tested responsiveness of the wireframe using Dev Tools and confirmed basic structure looks and works well on all mobile decides from 320px, up to desktop size.
-> - Tested all links manually to ensure they work and open in new tabs
+> - Tested all links manually to ensure they work and open in new tabs.
+> - Tested HTML and CSS code validation
 ---
 
 ### Project barriers and the solutions
 
 > - Bootstrap carousel works fine on desktop views with landscape images, but on mobile created large white space underneath. I overcame this by centering the carousel on mobile devices, and giving it a soft background in line with colour palette.
 > - About Section 'cards' were aligning fine, but uneven bottom according to how much text entered in each. Overcame by researching online and finding a workable solution on Stack Overflow using Boostrap's d-flex and flex-fill values.
+> - Contact form was not being responsive on smaller laptop views. To overcome this, I included the form in a Boostrap Grid layout.
+
 ---
 
 ### Code validity
