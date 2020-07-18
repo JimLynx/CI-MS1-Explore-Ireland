@@ -187,6 +187,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - [TinyPNG](https://tinypng.com/) - Efficient compression of images for site
 > - [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator
 > - [Balsamiq](https://balsamiq.com/wireframes/) - Wireframing design tool
+
 ---
 
 ### Testing
@@ -195,6 +196,12 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - Tested responsiveness of the wireframe using Dev Tools and confirmed basic structure looks and works well on all mobile decides from 320px, up to desktop size.
 > - Tested all links manually to ensure they work and open in new tabs.
 > - Tested HTML and CSS code validation
+> - Further testing of Responsiveness of all pages using [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
+> - 1. [Home Page](https://search.google.com/test/mobile-friendly?id=xFabK99FmnLzZb1GxaoAQA)
+> - 2. [About Page](https://search.google.com/test/mobile-friendly?id=sdaKzF2MGaSQ6f24M7x7_g)
+> - 3. [Gallery Page](https://search.google.com/test/mobile-friendly?id=UhXGW2xJswuM9ZqXZIc6YQ)
+> - 4. [Contact Page](https://search.google.com/test/mobile-friendly?id=0KNaDvsBA9EPBlFwkz4IKA)
+
 ---
 
 ### Project barriers and the solutions
@@ -255,9 +262,9 @@ This project has been deployed on GitHub Pages with the following process:
 > ##### Bootstrap 4 CDN Boilerplate 
 >
 > - I've taken advantage of *Simen Daehilin's* template boilerplate from his [Marketplace](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet) 
-
+>
 > ##### Code Snippets
-
+>
 > - [CSS-Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) for idea on background image for carousel on mobile devices.
 > - [Code Institute](https://codeinstitute.net/)  Inspiration for contact form from 'Love Running' Mini-Project in CSS Module.
 > - [Shuva Mallick](https://jsfiddle.net/shuvamallick/3o0h5oka/) Inspiration code for Submit button colour slide effect.
@@ -267,15 +274,13 @@ This project has been deployed on GitHub Pages with the following process:
 ---
 
 > ##### Acknowledgments
-
+>
 > I would like to thank:
 >
 > - My mentor, **Brian Macharia**, for his guidance, patience and encouragement throughout this project.
 > - **Bim Williams** and **Simen Daehlin** for their selfless approach to sharing of their time, experience, skill and knowledge. These sessions and casual chats have allowed me to grow my skill immensely in a  short period of time.
 > - **Anthony O'Brien** and **CI staff** for always being on-hand on Slack 
-> - Everyone that takes part in the Slack call meetups, specifically from the **#In-It-Together** and **#Study-Group** channel
-
----
+> - Everyone that takes part in the Slack call meetups, specifically from the **#In-It-Together** and **#Study-Group** channel.
 
 ### Support
 
