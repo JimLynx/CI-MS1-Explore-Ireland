@@ -6,42 +6,42 @@ The aim of this project is to **grow community involvement and spread awareness*
 
 ### Table of Contents
 
-- Overview
-- Description
-- User Stories
-- UX
-- Features
-- Technologies Used
-- References for learning
-- Testing
-- Project barriers and the solutions
-- Code validity
-- Version Control
-- Deployment
-- Credits
-- Acknowledgments
-- Support
+> - Overview
+> - Description
+> - User Stories
+> - UX
+> - Features
+> - Technologies Used
+> - References for learning
+> - Testing
+> - Project barriers and the solutions
+> - Code validity
+> - Version Control
+> - Deployment
+> - Credits
+> - Acknowledgments
+> - Support
 
 ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1595063631/Logos/MS1-Mockup.png)
 
 ### Overview
 
-During the Covid-19 crisis, people have been forced into isolation for many months. With the lock-down measures  now relaxing, it is as important as ever for us to get out of the house and allow natural socialising to resume in a responsible manner. 
+> During the Covid-19 crisis, people have been forced into isolation for many months. With the lock-down measures  now relaxing, it is as important as ever for us to get out of the house and allow natural socialising to resume in a responsible manner. 
 
 ---
 
 ### Description
 
-The Explore Ireland Project is dedicated to providing a free platform for all interested in road trips, exploring and camping to join us on breath-taking drives around the Irish countryside. Our trips are expertly planned and researched to ensure a safe, enjoyable and healthy experience. 
+> The Explore Ireland Project is dedicated to providing a free platform for all interested in road trips, exploring and camping to join us on breath-taking drives around the Irish countryside. Our trips are expertly planned and researched to ensure a safe, enjoyable and healthy experience. 
 
 ---
 #### User Stories
 
-- *"I don't have a PC or Laptop at home and generally do all my online searches on my mobile"*
-- *"I want to be able to subscribe to a mailing list about upcoming trips"*
-- *"I want to get in touch immediately as I have some recommendations on future routes"*
-- *"I want to be able to join a community forum or social media group to see up to date info on trips"*
-- *"We are keen to get involved but would love to see visual examples of past trips to give us an idea of what to expect"*
+> - *"I don't have a PC or Laptop at home and generally do all my online searches on my mobile"*
+> - *"I want to be able to subscribe to a mailing list about upcoming trips"*
+> - *"I want to get in touch immediately as I have some recommendations on future routes"*
+> - *"I want to be able to join a community forum or social media group to see up to date info on trips"*
+> - *"We are keen to get involved but would love to see visual examples of past trips to give us an idea of what to expect"*
 
 ---
 
@@ -111,16 +111,12 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > ###### Colours 
 >
 > Neutral soft-tones, reflecting the environment, inviting the User 'outdoors'. including browns and greens in soft tones while maintaining contrast with text on white background.
-
+>
 > ###### Typography
 >
 > "Varela Round" font (with fall-back font of Verdana) for main headings.
 > "Cabin" font (with fall-back font of Sans-Serif) for body content.
-
->  ###### Animations
 >
->  Due to limitation on skill, yet desirability of having some interactivity, I've included simple hover functions on Social Media button in the navigation, and an auto-scrolling carousel for images.
-
 >  ###### Images
 >
 >  The image selection has been carefully chosen to depict both relaxed road trips for beginners (to instil confidence in taking part as a newcomer); and more extreme 4x4 experiences for the advanced, familiar user.
@@ -211,16 +207,15 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 ### Code validity
 
 > HTML 						-	[W3C](https://validator.w3.org/) - Markup Validation
-
+>
 > CSS 						-	[W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
-
+>
 > CSS Prefixes              -   [Autoprefixer](https://autoprefixer.github.io/) - CSS vendor prefixer
-
+>
 > README					-	[Typora](https://typora.io/) - app for Live-Preview of Markup 
-
+>
 > TAGS                      -   [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) - Validates all tags are opening and closing correctly
 
->
 ---
 
 ### Version Control
@@ -249,15 +244,15 @@ This project has been deployed on GitHub Pages with the following process:
 ### Credits
 
 > ##### Media
-
+>
 > - The main photos, logo and imagery used in this project are *owned and provided by myself*
-
+>
 > ##### Content
-
+>
 > All text content is *self-written*
-
+>
 > ##### Bootstrap 4 CDN Boilerplate 
-
+>
 > - I've taken advantage of *Simen Daehilin's* template boilerplate from his [Marketplace](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet) 
 
 > ##### Code Snippets
@@ -271,7 +266,7 @@ This project has been deployed on GitHub Pages with the following process:
 > ##### Acknowledgments
 
 > I would like to thank:
-
+>
 > - My mentor, Brian Macharia, for his guidance, patience and encouragement throughout this project.
 > - Bim Williams and Simen Daehlin for their selfless approach to sharing of their time, experience, skill and knowledge. These sessions and casual chats have allowed me to grow my skill immensely in a  short period of time.
 > - Anthony O'Brien and CI staff for always being on-hand on Slack 
