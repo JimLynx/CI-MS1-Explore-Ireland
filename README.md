@@ -22,6 +22,8 @@ The aim of this project is to **grow community involvement and spread awareness*
 - Acknowledgments
 - Support
 
+![Image](https://res.cloudinary.com/jimlynx/image/upload/v1595063631/Logos/MS1-Mockup.png)
+
 ### Overview
 
 During the Covid-19 crisis, people have been forced into isolation for many months. With the lock-down measures  now relaxing, it is as important as ever for us to get out of the house and allow natural socialising to resume in a responsible manner. 
@@ -38,13 +40,14 @@ The Explore Ireland Project is dedicated to providing a free platform for all in
 - *"I don't have a PC or Laptop at home and generally do all my online searches on my mobile"*
 - *"I want to be able to subscribe to a mailing list about upcoming trips"*
 - *"I want to get in touch immediately as I have some recommendations on future routes"*
+- *"I want to be able to join a community forum or social media group to see up to date info on trips"*
 - *"We are keen to get involved but would love to see visual examples of past trips to give us an idea of what to expect"*
 
 ---
 
 ### UX
 
-This website project will target a large demographic of individuals and families from all walks of life. 
+This website project will target a large demographic of individuals and families from all walks of life, hence an overall simple, yet effective website is aimed at for priority on point of contact and social media links.
 
 ---
 
@@ -184,9 +187,9 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - [W3.CSS](https://www.w3schools.com/w3css/4/w3.css) - General 'go-to' for assistance
 > - [CommonMark](https://commonmark.org/help/) - For Markdown language reference
 > - [FlexBox Froggy Game](http://flexboxfroggy.com/) - Learning platform for FlexBox
-> - [Coolors](https://coolors.co/) -  find matching color palette for site
+> - [Coolors](https://coolors.co/) -  Find matching color palette for site
 > - [TinyPNG](https://tinypng.com/) - Efficient compression of images for site
-
+> - [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator
 ---
 
 ### Testing
