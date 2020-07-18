@@ -240,7 +240,6 @@ section {
 /* --- Credit: Form background inspiration from CI Love Running mini-project ---*/
 
 form {
-    max-width: 800px;
     margin: 0 auto 70px;
 	color: #fafafa;
 	background-color: rgba(60, 60, 60, 0.7);
@@ -405,9 +404,10 @@ footer {
         font-size: 2rem;
     }
     form {
-    padding: 35px;
+    padding: 50px 80px;
     }
 }
+
 @media only screen and (min-width: 992px) {
     .page-title {
         margin: 80px 0px;
@@ -434,11 +434,7 @@ footer {
     }
     .about-text {
         padding: 35px 35px 0px;
-    }
-   
-    form {
-    padding: 40px;
-    }
+    }    
     .social i {
         font-size: 1.3rem;
     }
@@ -453,7 +449,7 @@ footer {
 @media only screen and (min-width: 1024px) {    
 
     form {
-    padding: 40px;
+    padding: 40px 120px;
     }
     footer {
         height: 2.8rem;
