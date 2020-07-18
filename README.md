@@ -1,6 +1,6 @@
-# Explore Ireland
+# [Explore Ireland](https://jimlynx.github.io/CI-MS1-Explore-Ireland)
 
--- logo here --
+![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593548384/Logos/logo.png)
 
 The aim of this project is to **grow community involvement and spread awareness** to 4x4 enthusiast about getting outdoors again after COVID restrictions have lifted. 
 
@@ -24,7 +24,7 @@ The aim of this project is to **grow community involvement and spread awareness*
 
 ### Overview
 
-During the Covid-19 crisis, people have been forced into isolation for many months. With the lockdown measures  now relaxing, it is as important as ever for us to get out of the house and allow natural socialising to resume in a responsible manner. 
+During the Covid-19 crisis, people have been forced into isolation for many months. With the lock-down measures  now relaxing, it is as important as ever for us to get out of the house and allow natural socialising to resume in a responsible manner. 
 
 ---
 
@@ -35,6 +35,7 @@ The Explore Ireland Project is dedicated to providing a free platform for all in
 ---
 #### User Stories
 
+- *"I don't have a PC or Laptop at home and generally do all my online searches on my mobile"*
 - *"I want to be able to subscribe to a mailing list about upcoming trips"*
 - *"I want to get in touch immediately as I have some recommendations on future routes"*
 - *"We are keen to get involved but would love to see visual examples of past trips to give us an idea of what to expect"*
@@ -57,14 +58,16 @@ This website project will target a large demographic of individuals and families
 >
 >  - Building on community awareness of the natural beauty that Ireland has to offer.
 >
->  - Growing member database via email and direction to Facebook Group interactivity
+>  - Growing member database via email and direction to Facebook Group interactivity.
 >
 >  ##### Customer Goals:
 >
->  - Easy-to-read info. Long enough to understand the content, yet short enough not to overwhelm.>
+>  - Designed site with Mobile-first approach
+>  - Easy-to-read info. Long enough to understand the content, yet short enough not to overwhelm.
 >  - Imagery used for intuitive explanation of trips and showing inviting scenery.
->  - Simple point of contact form 
->  - Strong contrasting social media icons in main navigation bar, and footer. 
+>  - Contact form with radio button options to narrow down User interest type.
+>  - Easy reference to Social Media from anywhere on the site.
+>  - Strong contrasting Social Media icons in main navigation bar and footer. 
 >  - Fixed navigation bar allowing user quick navigation reference.
 
 #### 2.	Scope
@@ -73,7 +76,7 @@ This website project will target a large demographic of individuals and families
 >
 >  - Fits in with my current skill-set
 >  - Provides a clean UX for users
->  - Quickly defines the content and focus on getting in touch
+>  - Quickly defines the content and focus on getting in touch via email or social media.
 >  - In addition to this, I've included some **basic** animations in line with my time, skill and resources to subtly enhance the overall experience.
 
 #### 3.	Structure
@@ -86,9 +89,11 @@ This website project will target a large demographic of individuals and families
 
 > - Wireframe: One-page website with **4** main sections															
 >
-> - Fixed navigation bar - Menu headings pointing to each of the 5 sections (pages)
+> - Home, About (Trips), Gallery and Contact Section/Pages
 >
-> - Footer with centred Social Media icons
+> - Fixed navigation bar - Menu headings pointing to each of the 4 pages.
+>
+> - Fixed Footer with Copyright info and Social Media icons
 
 ---
 
@@ -106,7 +111,8 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 > ###### Typography
 >
-> "Varela" font for main headings and "Cabin" font for body content. I've included sans-serif as a fallback font for both.
+> "Varela Round" font (with fall-back font of Verdana) for main headings.
+> "Cabin" font (with fall-back font of Sans-Serif) for body content.
 
 >  ###### Animations
 >
@@ -126,13 +132,15 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - Single page site with 4 sections acting as individual pages 
 > - Fixed navigation allows the user to easily navigate, regardless of which page visited
 > - Fixed footer allows the user quick accessibility to social media links 
-> - Auto-scrolling carousel for vivid imagery experience
+> - Auto-scrolling carousel on desktop view for vivid imagery experience
 > - Contact Form
 
 ##### Features Left to Implement when skills develop
 
-> - Form submission needs to be functional.
+> - Form submission button needs to be functional (once Javascript is learnt).
 > - Integration of Social media Page to have a live update feeds
+
+---
 
 ### Technologies Used
 
@@ -142,8 +150,6 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 >
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/CSS3-50_slrv0x.png)	[CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
----
-
 ##### 2. Integrations
 
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/Bootstrap-50_khpj57.png)	[Bootstrap](https://getbootstrap.com/) - by linking via [BootstrapCDN](https://www.bootstrapcdn.com/) to HTML Doc
@@ -151,8 +157,6 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/fontawesome-50_r5df5h.png)	[FontAwesome](https://fontawesome.com/) Icons for Social Media links in Footer
 >
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/GoogleFonts-50_mx57p6.png)	[Google Fonts](https://fonts.google.com/) - Overall Typography
-
----
 
 ##### 3. Workspace, version control and Repository storage
 
@@ -162,13 +166,13 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 >
 >  ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593518773/Logos/github-50_ixwpch.png) 	[GitHub](https://github.com/)	  -	A cloud-based hosting service to manage my **Git** repositories
 
----
-
 ##### 4. IDE Extensions
 
-> - Auto nametag
+> - Auto Nametag
 > - Bracket pair Colourizer
 > - Code Spellchecker
+
+---
 
 ### Resources 
 
@@ -196,8 +200,8 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 ### Project barriers and the solutions
 
 > - Bootstrap carousel works fine on desktop views with landscape images, but on mobile created large white space underneath. I overcame this by centering the carousel on mobile devices, and giving it a soft background in line with colour palette.
-> - About Section 'cards' were aligning fine, but uneven bottom according to how much text entered in each. Overcame by researching online and finding a workable solution on Stack Overflow using Boostrap's d-flex and flex-fill values.
-> - Contact form was not being responsive on smaller laptop views. To overcome this, I included the form in a Boostrap Grid layout.
+> - About Section 'cards' were aligning fine, but uneven bottom according to how much text entered in each. Overcame by researching online and finding a workable solution on Stack Overflow using Bootstrap's d-flex and flex-fill values.
+> - Contact form was not being responsive on smaller laptop views. To overcome this, I included the form in a Bootstrap Grid layout.
 
 ---
 
@@ -222,6 +226,8 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - Branches were created to work on side projects to incorporate later.
 > - The branches were then merged with the master branch.
 
+---
+
 ### Deployment
 
 This project has been deployed on GitHub Pages with the following process:
@@ -232,7 +238,6 @@ This project has been deployed on GitHub Pages with the following process:
 > - Under 'Source' dropdown, the 'Master branch' was selected.
 > - Once selected, this publishes the project to GitHub Pages and displays the site url.
 > - There is no difference between the deployed version and the development version.
-
 > - The code can be run locally through clone or download.
 > - You can do this by opening the repository, clicking on the green 'Code' button and and selecting either 'clone or download'.
 > - The Clone option provides a url hat you can use on your desktop
@@ -243,22 +248,21 @@ This project has been deployed on GitHub Pages with the following process:
 > ##### Media
 
 > - The main photos, logo and imagery used in this project are *owned and provided by myself*
-> - Cracked Mud photo (gallery carousel background for mobile devices) credited to Santiago Manuel De la Colina and obtained from [Pexels](https://www.pexels.com/photo/dry-cracked-mud-3631542/)
 
 > ##### Content
 
 > All text content is *self-written*
 
-> ##### Bootsrap 4 CDN Boilerplate 
+> ##### Bootstrap 4 CDN Boilerplate 
 
-> - I've taken advantage of *Simen Dahilin's* template boilerplate from his [Marketplace](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet) 
+> - I've taken advantage of *Simen Daehilin's* template boilerplate from his [Marketplace](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet) 
 
 > ##### Code Snippets
 
 > - [CSS-Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) for idea on background image for carousel on mobile devices.
 > - [Code Institute](https://codeinstitute.net/)  Inspiration for contact form from 'Love Running' Mini-Project in CSS Module.
 > - [Shuva Mallick](https://jsfiddle.net/shuvamallick/3o0h5oka/) Inspiration code for Submit button colour slide effect.
-> - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns) Code idea for cards inside Jumbotron 
+> - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns) Code idea for cards inside Jumbotron. 
 ---
 
 > ##### Acknowledgments
