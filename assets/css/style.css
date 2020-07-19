@@ -219,11 +219,16 @@ section {
 
 #gallery i {
     font-size: 200%;
+    color: var(--primary-bg-clr);
     }
 
 .carousel-indicators {
     margin-bottom: 40px;
     }
+
+.carousel-indicators li {
+    background-color: var(--primary-bg-clr);
+}
 
 .carousel-item {
     max-height: 92vh;    
