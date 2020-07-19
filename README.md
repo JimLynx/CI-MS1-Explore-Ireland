@@ -187,6 +187,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - [TinyPNG](https://tinypng.com/) - Efficient compression of images for site
 > - [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator
 > - [Balsamiq](https://balsamiq.com/wireframes/) - Wireframing design tool
+> - [Kevin Powell](https://www.youtube.com/watch?v=PHO6TBq_auI) Video tutorial on CSS Variables
 
 ---
 
