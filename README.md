@@ -202,13 +202,18 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - Tested **Carousel right and left arrows** and **indicator bar** to ensure all is working properly.
 > - Tested **Send** button on Contact page to ensure it gives 'Please fill out this field' to appropriate required fields.
 > - Tested **Radio buttons** to ensure only *one option can be selected* and that *at least one option* is required.
-> - Tested HTML and CSS code validation
 > - Further testing of Responsiveness of all pages using [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
 > - 1. [Home Page](https://search.google.com/test/mobile-friendly?id=xFabK99FmnLzZb1GxaoAQA)
 > - 2. [About Page](https://search.google.com/test/mobile-friendly?id=sdaKzF2MGaSQ6f24M7x7_g)
 > - 3. [Gallery Page](https://search.google.com/test/mobile-friendly?id=UhXGW2xJswuM9ZqXZIc6YQ)
 > - 4. [Contact Page](https://search.google.com/test/mobile-friendly?id=0KNaDvsBA9EPBlFwkz4IKA)
 > - Tested overall site colours on [a11y](https://color.a11y.com/), a Color Contrast Accessibility Validator. Test came back with excellent results.
+> - Tested [HTML Validation](https://validator.w3.org/) No errors or warnings to show.
+> - Tested [CSS Validation](https://jigsaw.w3.org/css-validator/)
+> - 1.  Parse Error on 47 items related to CSS Variable values. Researched this and found that this is a non-issue after reading reports on [Stack Overflow](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables) and other sources. It is a requested feature on [Github](https://github.com/w3c/css-validator/issues/111) too.
+> - 2.  Warning 'Imported style sheets are not checked in direct input and file upload modes'. Confident to ignore these after researching and a common answer is that the validator will not validate imported style sheets. See [Stack Overflow](https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error).
+> - Tested site URL on [Website Page Test](https://www.webpagetest.org/) which rendered good results. Images are on hte large size in PNG format and already compressed. I chose to maintain the PNG format as the image quality of the site is integral to the UX.
+
 ---
 
 ### Project barriers and the solutions
@@ -216,6 +221,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - Bootstrap carousel works fine on desktop views with landscape images, but on mobile created large white space underneath. I overcame this by centering the carousel on mobile devices, and giving it a soft background in line with colour palette.
 > - About Section 'cards' were aligning fine, but uneven bottom according to how much text entered in each. Overcame by researching online and finding a workable solution on Stack Overflow using Bootstrap's d-flex and flex-fill values.
 > - Contact form was not being responsive on smaller laptop views. To overcome this, I included the form in a Bootstrap Grid layout.
+> - Bootstrap Carousel was being cut off at the bottom and allowed no space for Gallery heading. To overcome this I wrapped the carousel in its own Container and added the Gallery heading above keeping the entire site consistent.
 
 ---
 
@@ -224,10 +230,6 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > HTML 						-	[W3C](https://validator.w3.org/) - Markup Validation
 >
 > CSS 						-	[W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
->
-> CSS Prefixes              -   [Autoprefixer](https://autoprefixer.github.io/) - CSS vendor prefixer
->
-> README					-	[Typora](https://typora.io/) - app for Live-Preview of Markup 
 >
 > TAGS                      -   [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) - Validates all tags are opening and closing correctly
 
