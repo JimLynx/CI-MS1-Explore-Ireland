@@ -42,7 +42,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
 	color: #425012;
 	font-family: "Varela Round", Verdana;
 	letter-spacing: 3px;
@@ -198,16 +199,17 @@ section {
 	box-shadow: 0 1px 12px -2px rgba(0, 0, 0, 0.3);
 }
 
-.about-text {
-	padding: 20px 20px 0px;
+.about-text h3 {
+    text-align: center;
+    margin: 20px 0px;
 }
 
-.about-text h2 {
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 10px;
+.about-text hr {
+    background-color: #425012;
+    opacity: .3;
+    margin: 10px auto;
+    
 }
-
 
 /* --- GALLERY --- */
 
