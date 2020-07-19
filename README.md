@@ -195,7 +195,13 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 > - After initial wireframe design, I checked each navigation item link is working correctly to each Page. I set a *temporary* contrasting background colour to each page to mark out each section.
 > - Tested responsiveness of the wireframe using Dev Tools and confirmed basic structure looks and works well on all mobile decides from 320px, up to desktop size.
-> - Tested all links manually to ensure they work and open in new tabs.
+> - Tested **Logo text** in menu bar to ensure it points to the Home page.
+> - Tested **About, Gallery and Contact** links in menu bar to ensure it points to each page and position correctly.
+> - Tested **Social Media icons** in Footer to ensure they open pages correctly and in new tab on browser.
+> - Tested **Contact Us** and **Facebook Community Group** a tags on About page to ensure they open pages correctly and in new tab on browser.
+> - Tested **Carousel right and left arrows** and **indicator bar** to ensure all is working properly.
+> - Tested **Send** button on Contact page to ensure it gives 'Please fill out this field' to appropriate required fields.
+> - Tested **Radio buttons** to ensure only *one option can be selected* and that *at least one option* is required.
 > - Tested HTML and CSS code validation
 > - Further testing of Responsiveness of all pages using [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
 > - 1. [Home Page](https://search.google.com/test/mobile-friendly?id=xFabK99FmnLzZb1GxaoAQA)
