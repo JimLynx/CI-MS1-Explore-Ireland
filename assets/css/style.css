@@ -194,7 +194,6 @@ section {
 
 .jumbotron-fluid {
 	padding: 10px 5px;
-	/* border: 2px solid #42501250; */
 	border-radius: 8px;
 	box-shadow: 0 1px 12px -2px rgba(0, 0, 0, 0.3);
 }
@@ -231,10 +230,26 @@ section {
 
 /* --- CONTACT --- */
 
+/* --- https://css-tricks.com/snippets/css/transparent-background-images - Background image opacity.*/
+
 #contact {
-	background: url("../images/lake-view.png");
-	background-size: cover;
+	display: block;
+    position: relative;
+	
+}
+
+#contact::after {
+    content:"";
+    background: url("../images/lake-view.png");
+    background-size: cover;
 	background-position: center;
+    opacity: .6;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 
 /* --- Credit: Form background inspiration from CI Love Running mini-project ---*/
