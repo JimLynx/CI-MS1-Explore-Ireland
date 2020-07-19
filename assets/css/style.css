@@ -211,6 +211,11 @@ section {
     
 }
 
+.about-text a {
+    color:  #425012;
+    font-weight: 600;
+}
+
 /* --- GALLERY --- */
 
 .image img {
