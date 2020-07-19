@@ -201,7 +201,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - 2. [About Page](https://search.google.com/test/mobile-friendly?id=sdaKzF2MGaSQ6f24M7x7_g)
 > - 3. [Gallery Page](https://search.google.com/test/mobile-friendly?id=UhXGW2xJswuM9ZqXZIc6YQ)
 > - 4. [Contact Page](https://search.google.com/test/mobile-friendly?id=0KNaDvsBA9EPBlFwkz4IKA)
-
+> - Tested overall site colours on [a11y](https://color.a11y.com/), a Color Contrast Accessibility Validator. Test came back with excellent results.
 ---
 
 ### Project barriers and the solutions
