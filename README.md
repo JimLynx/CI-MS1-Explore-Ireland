@@ -265,10 +265,10 @@ This project has been deployed on GitHub Pages with the following process:
 >
 > ##### Code Snippets
 >
-> - [CSS-Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) for idea on background image for carousel on mobile devices.
-> - [Code Institute](https://codeinstitute.net/)  Inspiration for contact form from 'Love Running' Mini-Project in CSS Module.
-> - [Shuva Mallick](https://jsfiddle.net/shuvamallick/3o0h5oka/) Inspiration code for Submit button colour slide effect.
-> - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns) Code idea for cards inside Jumbotron. 
+> - [CSS-Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) - Background image opacity on Contact page.
+> - [Code Institute](https://codeinstitute.net/)  - Inspiration for contact form from 'Love Running' Mini-Project in CSS Module.
+> - [Shuva Mallick](https://jsfiddle.net/shuvamallick/3o0h5oka/) - Inspiration code for Submit button colour slide effect.
+> - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns) - Code idea for cards inside Jumbotron. 
 > - [W3.org](https://www.w3.org/2005/10/howto-favicon) - How to add a Favicon to site.
 
 ---
