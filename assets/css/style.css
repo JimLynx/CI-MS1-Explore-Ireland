@@ -71,17 +71,10 @@ section {
 /* --- NAVIGATION --- */
 
 #main-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   background-color: var(--primary-bg-clr);
-  -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
   padding: 8px 16px;
 }
@@ -114,11 +107,7 @@ section {
 .intro-box {
   width: 100%;
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   padding: 0px 10px;
   z-index: -1;
@@ -128,8 +117,7 @@ section {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 10px;
   border-radius: 8px;
-  text-align: center;
-  -webkit-box-shadow: var(--box-shadow);
+  text-align: center;;
   box-shadow: var(--box-shadow);
 }
 
@@ -265,7 +253,6 @@ form {
   border-radius: 8px;
   padding: 25px;
   box-shadow: var(--box-shadow);
-  -webkit-box-shadow: var(--box-shadow);
 }
 
 .text-input {
@@ -294,12 +281,8 @@ form {
 
 .send-btn {
   width: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 5px auto;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   border-radius: 8px;
   background-color: var(--primary-bg-clr);
@@ -307,15 +290,11 @@ form {
   text-transform: uppercase;
   letter-spacing: 2px;
   cursor: pointer;
-  -webkit-box-shadow: inset 0 0 0 0 var(--primary-txt-clr);
   box-shadow: inset 0 0 0 0 var(--primary-txt-clr);
-  -webkit-transition: all ease 0.8s;
-  -o-transition: all ease 0.8s;
   transition: all ease 0.8s;
 }
 
 .send-btn:hover {
-  -webkit-box-shadow: inset 100px 0 0 0 var(--primary-txt-clr);
   box-shadow: inset 100px 0 0 0 var(--primary-txt-clr);
   border: 1px solid var(--primary-bg-clr);
   color: var(--primary-bg-clr);
@@ -328,13 +307,8 @@ footer {
   bottom: 0px;
   height: 2.5rem;
   background-color: var(--primary-bg-clr);
-  -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   position: fixed;
   z-index: 1020;
@@ -360,14 +334,8 @@ footer {
 
 .social {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   width: 40%;
   margin: auto 5%;
@@ -439,11 +407,7 @@ footer {
 
 @media only screen and (min-width: 992px) {
   #navbarNav {
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
     justify-content: flex-end;
-    max-width: -webkit-fit-content;
-    max-width: -moz-fit-content;
     max-width: fit-content;
   }
   .navbar-brand {
