@@ -254,6 +254,7 @@ This project has been deployed on GitHub Pages with the following process:
 > ##### Media
 >
 > - The main photos, logo and imagery used in this project are *owned and provided by myself*
+> - About/Trip page images are taken from [Pexels](https://www.pexels.com/), a free stock-photo library.
 >
 > ##### Content
 >
