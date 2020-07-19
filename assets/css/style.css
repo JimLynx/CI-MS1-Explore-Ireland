@@ -207,13 +207,13 @@ section {
 .about-text hr {
     background-color: #425012;
     opacity: .3;
-    margin: 10px auto;
-    
+    margin: 10px auto;    
 }
 
 .about-text a {
     color:  #425012;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 /* --- GALLERY --- */
