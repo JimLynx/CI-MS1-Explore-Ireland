@@ -26,7 +26,7 @@ The aim of this project is to **grow community involvement and spread awareness*
 
 ### Overview
 
-> During the Covid-19 crisis, people have been forced into isolation for many months. With the lock-down measures now relaxing, it is as important as ever for us to get out of the house and allow natural socialising to resume in a responsible manner.
+> During the Covid-19 crisis, people have been forced into isolation for many months. With the lock-down measures now relaxing, it is as important as ever for us to get out of the house and allow socialising to resume in a responsible manner.
 
 ---
 
@@ -48,7 +48,7 @@ The aim of this project is to **grow community involvement and spread awareness*
 
 ### UX
 
-This website project will target a large demographic of individuals and families from all walks of life, hence an overall simple, yet effective website is aimed at for priority on point of contact and social media links.
+This website project will target a large demographic of individuals and families from all walks of life, hence an overall simple, yet effective website is aimed at. The priority focus is on direct contact and social media links.
 
 ---
 
@@ -69,27 +69,29 @@ This website project will target a large demographic of individuals and families
 > - Designed site with Mobile-first approach
 > - Easy-to-read info. Long enough to understand the content, yet short enough not to overwhelm.
 > - Imagery used for intuitive explanation of trips and showing inviting scenery.
-> - Contact form with radio button options to narrow down User interest type.
+> - Contact form with radio button options to narrow down user interest type.
 > - Easy reference to Social Media from anywhere on the site.
-> - Strong contrasting Social Media icons in main navigation bar and footer.
-> - Fixed navigation bar allowing user quick navigation reference.
+> - Strong contrasting Social Media icons in the footer.
+> - Fixed navigation bar providing user easy navigation reference.
+> - Fixed footer providing quick reference to Social Media links.
 
 #### 2. Scope
 
 > I've decided on an MVP (Minimal Viable Product) approach, which:
 >
-> - Fits in with my current skill-set
-> - Provides a clean UX for users
+> - Provides a clean UX for users.
+> - Fits in with my current skill-set.
 > - Quickly defines the content and focus on getting in touch via email or social media.
-> - In addition to this, I've included some **basic** animations in line with my time, skill and resources to subtly enhance the overall experience.
+> - I've included some **basic** animations to subtly enhance the overall experience.
 
 #### 3. Structure
 
-> The main focus in my structure is to allow Users to quickly assimilate the information and imagery. I've used short, focussed paragraphs of content information to provide enough information, yet not overwhelm.
->
-> Points of contact are provided via email contact form, link to the Facebook Page (in footer and navigation bar) and a downloadable registration form.
+> The main focus of the structure is to allow Users to quickly assimilate the information and imagery. 
+> Short, focussed paragraphs of content information to provide enough information, yet not overwhelm.
+> A selection of quality images to provide a taste of the trips and options offered.
+> Points of contact are provided via email contact form and links to Social Media in Footer.
 
-#### 4. Skeleton Surface
+#### 4. Skeleton
 
 > - [Wireframes](assets/docs/wireframes.pdf): One-page website with **4** main sections
 >
@@ -101,22 +103,20 @@ This website project will target a large demographic of individuals and families
 
 ---
 
-**TO COMPLETE---->** (links to any **wireframes, mockups, diagrams**
-
----
-
 #### 5. Surface
 
 I've decided on a relaxed, yet exciting visual experience reflecting nature and peacefulness coupled with exhilaration of more extreme 4x4 routes and breath-taking views.
 
 > ###### Colours
 >
-> Neutral soft-tones, reflecting the environment, inviting the User 'outdoors'. including browns and greens in soft tones while maintaining contrast with text on white background.
->
+> Neutral earth-tones, reflecting the environment, inviting the User 'outdoors'. 
+> - I've chosen 2 primary greens for backgrounds (#eef4db) and headings (#425012). 
+> - For body text, I've used a combination of a dark grey (#242424) and off-white (#fafafa), maintaining strong, balanced contrasts.
+> 
 > ###### Typography
 >
-> "Varela Round" font (with fall-back font of Verdana) for main headings.
-> "Cabin" font (with fall-back font of Sans-Serif) for body content.
+> - "Varela Round" font (with fall-back font of Verdana) for main headings. This font was specifically chosen for its rounded edges, which relate to natural curves in nature.
+> - "Cabin" font (with fall-back font of Sans-Serif) for body content.
 >
 > ###### Images
 >
@@ -128,17 +128,18 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 ##### Existing Features
 
-> - Designed with HTML5, CSS3 and Bootstrap
-> - Single page site with 4 sections acting as individual pages
-> - Fixed navigation allows the user to easily navigate, regardless of which page visited
-> - Fixed footer allows the user quick accessibility to social media links
-> - Auto-scrolling carousel on desktop view for vivid imagery experience
-> - Contact Form
+> - Designed with HTML5, CSS3 and Bootstrap.
+> - Single page site with 4 sections acting as individual pages.
+> - Fixed navigation allows the user to easily navigate, regardless of which page visited.
+> - Fixed footer allows the user quick accessibility to social media links.
+> - Auto-scrolling carousel on desktop and tablet landscape views for vivid imagery experience.
+> - Fixed, stacked images for mobile views, with soft box-shadow.
+> - Contact Form with radio buttons.
 
 ##### Features Left to Implement when skills develop
 
 > - Form submission button needs to be functional (once Javascript is learnt).
-> - Integration of Social media Page to have a live update feeds
+> - Integration of Social media Page to have a live update feeds of planned trips and events.
 
 ---
 
@@ -146,13 +147,13 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 ##### 1. Languages
 
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/html5-50_groo6o.png) [HTML5](https://en.wikipedia.org/wiki/HTML5)
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/html5-50_groo6o.png)   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 >
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/CSS3-50_slrv0x.png) [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/CSS3-50_slrv0x.png)    [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ##### 2. Integrations
 
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/Bootstrap-50_khpj57.png) [Bootstrap](https://getbootstrap.com/) - by linking via [BootstrapCDN](https://www.bootstrapcdn.com/) to HTML Doc
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/Bootstrap-50_khpj57.png)   [Bootstrap](https://getbootstrap.com/) - by linking via [BootstrapCDN](https://www.bootstrapcdn.com/) to HTML Doc
 >
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/fontawesome-50_r5df5h.png) [FontAwesome](https://fontawesome.com/) Icons for Social Media links in Footer
 >
@@ -160,11 +161,11 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 ##### 3. Workspace, version control and Repository storage
 
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593518541/Logos/gitpod-50_qaxo1q.png) [GitPod](https://github.com/mkuti/corklagos-venture/blob/master/gitpod.io) - Main workspace IDE (Integrated Development Environment)
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593518541/Logos/gitpod-50_qaxo1q.png)  [GitPod](https://github.com/mkuti/corklagos-venture/blob/master/gitpod.io) - Main workspace IDE (Integrated Development Environment)
 >
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593518772/Logos/git-50_znskan.png) [Git](https://git-scm.com/) - Distributed Version Control tool to store versions of files and track changes.
 >
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593518773/Logos/github-50_ixwpch.png) [GitHub](https://github.com/) - A cloud-based hosting service to manage my **Git** repositories
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593518773/Logos/github-50_ixwpch.png)  [GitHub](https://github.com/) - A cloud-based hosting service to manage my **Git** repositories
 
 ##### 4. IDE Extensions
 
@@ -217,6 +218,8 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - Checked grammar and spelling throughout document.
 > - Ran CSS through [Autoprefixer](https://autoprefixer.github.io/) and copied new CSS code back into style.css doc.
 > - Re-ran CSS Validation and 30 warnings appeared for 'unknown vendor extension'. Confident to ignore these as answered on [Stack Overflow](https://stackoverflow.com/questions/5271955/css-parse-errors-from-a-generated-stylesheet).
+> - Ran README text through [Online-Spellcheck](https://www.online-spellcheck.com/) to double-check on grammar and spelling.
+
 ---
 
 ### Project barriers and the solutions
@@ -244,7 +247,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 > - Used Git for version control.
 > - Branches were created to work on side projects to incorporate later.
-> - The branches were then merged with the master branch.
+> - The branches were then merged with the master branch after any conflicts were addressed.
 
 ---
 
@@ -255,7 +258,7 @@ This project has been deployed on GitHub Pages with the following process:
 > - All code was written on Gitpod, an online IDE.
 > - The code was then pushed to GitHub where it is stored in my [Repository](https://github.com/JimLynx/CI-MS1-Explore-Ireland).
 > - Under the [settings](https://github.com/JimLynx/CI-MS1-Explore-Ireland/settings) section of the GitHub repository, scrolled down to GitHub Pages section.
-> - Under 'Source' dropdown, the 'Master branch' was selected.
+> - Under 'Source' drop-down, the 'Master branch' was selected.
 > - Once selected, this publishes the project to GitHub Pages and displays the site url.
 > - There is no difference between the deployed version and the development version.
 > - The code can be run locally through clone or download.
