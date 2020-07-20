@@ -213,9 +213,10 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - Tested [CSS Validation](https://jigsaw.w3.org/css-validator/)
 > - 1.  Parse Error on 47 items related to CSS Variable values. Researched this and found that this is a non-issue after reading reports on [Stack Overflow](https://stackoverflow.com/questions/57661659/w3c-css-validation-parse-error-on-variables) and other sources. It is a requested feature on [Github](https://github.com/w3c/css-validator/issues/111) too.
 > - 2.  Warning 'Imported style sheets are not checked in direct input and file upload modes'. Confident to ignore these after researching and a common answer is that the validator will not validate imported style sheets. See [Stack Overflow](https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error).
-> - Tested site URL on [Website Page Test](https://www.webpagetest.org/) which rendered good results. Images are on hte large size in PNG format and already compressed. I chose to maintain the PNG format as the image quality of the site is integral to the UX.
+> - Tested site URL on [Website Page Test](https://www.webpagetest.org/) which rendered good results. Images are on the large size in PNG format and already compressed. I chose to maintain the PNG format as the image quality of the site is integral to the UX.
 > - Checked grammar and spelling throughout document.
 > - Ran CSS through [Autoprefixer](https://autoprefixer.github.io/) and copied new CSS code back into style.css doc.
+> - Re-ran CSS Validation and 30 warnings appeared for 'unknown vendor extension'. Confident to ignore these as answered on [Stack Overflow](https://stackoverflow.com/questions/5271955/css-parse-errors-from-a-generated-stylesheet).
 ---
 
 ### Project barriers and the solutions
