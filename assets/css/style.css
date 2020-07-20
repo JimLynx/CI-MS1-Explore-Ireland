@@ -15,7 +15,7 @@
   --secondary-bg-clr: rgba(60, 60, 60, 0.7);
   --secondary-txt-clr: #242424;
   --off-white-txt-clr: #fafafa;
-  --box-shadow: 0 1px 12px -2px rgba(0, 0, 0, 0.3);
+  --box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
 }
 
 .color-primary-0 {
