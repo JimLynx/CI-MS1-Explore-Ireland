@@ -24,6 +24,8 @@ The aim of this project is to **grow community involvement and spread awareness*
 
 ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1595063631/Logos/MS1-Mockup.png)
 
+**Please note: To open any links in this document in a new browser tab, please press `CTRL + Click`.**
+
 ### Overview
 
 > During the Covid-19 crisis, people have been forced into isolation for many months. With the lock-down measures now relaxing, it is as important as ever for us to get out of the house and allow socialising to resume in a responsible manner.
