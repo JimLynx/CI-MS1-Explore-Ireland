@@ -149,17 +149,17 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 ##### 1. Languages
 
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/html5-50_groo6o.png)   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/html5-50_groo6o.png)   [HTML5](https://en.wikipedia.org/wiki/HTML5).
 >
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/CSS3-50_slrv0x.png)    [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/CSS3-50_slrv0x.png)    [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
 
 ##### 2. Integrations
 
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/Bootstrap-50_khpj57.png)   [Bootstrap](https://getbootstrap.com/) - by linking via [BootstrapCDN](https://www.bootstrapcdn.com/) to HTML Doc
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/Bootstrap-50_khpj57.png)   [Bootstrap](https://getbootstrap.com/) - by linking via [BootstrapCDN](https://www.bootstrapcdn.com/) to HTML Doc.
 >
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/fontawesome-50_r5df5h.png) [FontAwesome](https://fontawesome.com/) Icons for Social Media links in Footer
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/fontawesome-50_r5df5h.png) [FontAwesome](https://fontawesome.com/) Icons for Social Media links in Footer.
 >
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/GoogleFonts-50_mx57p6.png) [Google Fonts](https://fonts.google.com/) - Overall Typography
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/GoogleFonts-50_mx57p6.png) [Google Fonts](https://fonts.google.com/) - Overall Typography import.
 
 ##### 3. Workspace, version control and Repository storage
 
@@ -167,9 +167,16 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 >
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593518772/Logos/git-50_znskan.png) [Git](https://git-scm.com/) - Distributed Version Control tool to store versions of files and track changes.
 >
-> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593518773/Logos/github-50_ixwpch.png)  [GitHub](https://github.com/) - A cloud-based hosting service to manage my **Git** repositories
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593518773/Logos/github-50_ixwpch.png)  [GitHub](https://github.com/) - A cloud-based hosting service to manage my **Git** repositories.
 
-##### 4. IDE Extensions
+##### 4. Other
+
+> [Autoprefixer](https://autoprefixer.github.io/) Parses CSS and adds vendor prefixes.
+> [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) Mobile-friendly check on site.
+> [Website Page Test](https://www.webpagetest.org/) Runs a website speed test from multiple locations around the globe using real browsers (IE and Chrome) and at real consumer connection speeds. 
+> [Online-Spellcheck](https://www.online-spellcheck.com/) Online spelling and grammar checks.
+
+##### 5. IDE Extensions used in GitPod
 
 > - Auto Nametag
 > - Bracket pair Colourizer
@@ -226,10 +233,10 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 ### Project barriers and the solutions
 
-> - Bootstrap carousel works fine on desktop views with landscape images, but on mobile created large white space underneath. I overcame this by centering the carousel on mobile devices, and giving it a soft background in line with colour palette.
+> - Bootstrap carousel works fine on desktop views with landscape images, but on mobile created large white space underneath. I overcame this by creating a static gallery of images in mobile and tablet views.
 > - About Section 'cards' were aligning fine, but uneven bottom according to how much text entered in each. Overcame by researching online and finding a workable solution on Stack Overflow using Bootstrap's d-flex and flex-fill values.
 > - Contact form was not being responsive on smaller laptop views. To overcome this, I included the form in a Bootstrap Grid layout.
-> - Bootstrap Carousel was being cut off at the bottom and allowed no space for Gallery heading. To overcome this I wrapped the carousel in its own Container and added the Gallery heading above keeping the entire site consistent.
+> - Bootstrap Carousel was being cut off at the bottom and allowed no space for Gallery heading. To overcome this I wrapped the carousel in its own Bootstrap Container. Added the Gallery heading above keeping the entire site consistent.
 
 ---
 
@@ -239,9 +246,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 >
 > CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 >
-> TAGS - [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) - Validates all tags are opening and closing correctly
->
-> VENDOR PREFIXES - [Autoprefixer](https://autoprefixer.github.io/) Parses CSS and adds vendor prefixes.
+> TAGS - [Closing Tag Checker for HTML5](https://www.aliciaramirez.com/closing-tags-checker/) - Validates all tags are opening and closing correctly.
 
 ---
 
@@ -299,8 +304,8 @@ This project has been deployed on GitHub Pages with the following process:
 >
 > - My mentor, **Brian Macharia**, for his guidance, patience and encouragement throughout this project.
 > - **Bim Williams** and **Simen Daehlin** for their selfless approach to sharing of their time, experience, skill and knowledge. These sessions and casual chats have allowed me to grow my skill immensely in a short period of time.
-> - **Anthony O'Brien** and **CI staff** for always being on-hand on Slack
-> - Everyone that takes part in the Slack call meetups, specifically from the **#In-It-Together** and **#Study-Group** channel.
+> - **CI staff** and **Slack Community** for always being on-hand with questions posted and assistance requests.
+> - Everyone that takes part in the Slack call meetups, specifically from the **#In-It-Together** and **#Study-Group** channels.
 
 ### Support
 
