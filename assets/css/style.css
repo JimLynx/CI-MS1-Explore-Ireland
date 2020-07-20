@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Cabin&family=Varela+Round&display=swap");
 
 /* --------- SITE COLOURS ---------*/
@@ -61,7 +68,8 @@ section {
   padding: 5px 2px;
   text-align: center;
   border-radius: 8px;
-  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
 }
 
 .page-title h2 {
@@ -71,11 +79,18 @@ section {
 /* --- NAVIGATION --- */
 
 #main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: var(--primary-bg-clr);
-  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
   padding: 8px 16px;
 }
 
@@ -107,8 +122,12 @@ section {
 .intro-box {
   width: 100%;
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0px 10px;
   z-index: -1;
 }
@@ -118,7 +137,8 @@ section {
   padding: 10px;
   border-radius: 8px;
   text-align: center;;
-  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);;
+          box-shadow: var(--box-shadow);
 }
 
 .intro-text h2 {
@@ -160,7 +180,8 @@ section {
   padding: 5px;
   border: none;
   border-radius: 8px;
-  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
 }
 
 .card-body {
@@ -176,7 +197,8 @@ section {
 .jumbotron-fluid {
   padding: 10px 5px;
   border-radius: 8px;
-  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
 }
 
 .about-text h3 {
@@ -200,7 +222,8 @@ section {
 
 .image img {
   margin: 8px 0px;
-  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
 }
 
 #gallery i {
@@ -217,7 +240,8 @@ section {
 }
 
 .carousel-inner {
-  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
   border-radius: 8px;
 }
 
@@ -252,7 +276,8 @@ form {
   background-color: var(--secondary-bg-clr);
   border-radius: 8px;
   padding: 25px;
-  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
 }
 
 .text-input {
@@ -281,21 +306,29 @@ form {
 
 .send-btn {
   width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 5px auto;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-radius: 8px;
   background-color: var(--primary-bg-clr);
   border: 1px solid var(--primary-txt-clr);
   text-transform: uppercase;
   letter-spacing: 2px;
   cursor: pointer;
-  box-shadow: inset 0 0 0 0 var(--primary-txt-clr);
+  -webkit-box-shadow: inset 0 0 0 0 var(--primary-txt-clr);
+          box-shadow: inset 0 0 0 0 var(--primary-txt-clr);
+  -webkit-transition: all ease 0.8s;
+  -o-transition: all ease 0.8s;
   transition: all ease 0.8s;
 }
 
 .send-btn:hover {
-  box-shadow: inset 100px 0 0 0 var(--primary-txt-clr);
+  -webkit-box-shadow: inset 100px 0 0 0 var(--primary-txt-clr);
+          box-shadow: inset 100px 0 0 0 var(--primary-txt-clr);
   border: 1px solid var(--primary-bg-clr);
   color: var(--primary-bg-clr);
 }
@@ -307,9 +340,14 @@ footer {
   bottom: 0px;
   height: 2.5rem;
   background-color: var(--primary-bg-clr);
-  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: fixed;
   z-index: 1020;
 }
@@ -334,9 +372,15 @@ footer {
 
 .social {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 40%;
   margin: auto 5%;
 }
@@ -407,7 +451,11 @@ footer {
 
 @media only screen and (min-width: 992px) {
   #navbarNav {
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
     max-width: fit-content;
   }
   .navbar-brand {
