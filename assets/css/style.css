@@ -218,6 +218,10 @@ section {
   text-transform: uppercase;
 }
 
+.fa-utensils {
+    color: var(--primary-txt-clr);
+}
+
 /* --- GALLERY --- */
 
 .image img {
