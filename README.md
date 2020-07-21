@@ -236,12 +236,13 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 ### Project barriers and solutions
 
-> - Bootstrap carousel works fine on desktop views with landscape images, but on mobile created large white space underneath. To overcome this I started a new branch called 'Gallery-carousel'. I creatined a static gallery of images in mobile and tablet views and once tested, I then merged the branch with the master branch.
+> - Bootstrap carousel works fine on desktop views with landscape images, but on mobile created large white space underneath. To overcome this I started a new branch called 'Gallery-carousel'. I then added a background image to the carousel on mobile views and centered the carousel on each media query. I then merged the branch with the master branch.
 > - About Section 'cards' were aligning fine, but uneven bottom according to how much text entered in each. Overcame by researching online and finding a workable solution on Stack Overflow using Bootstrap's d-flex and flex-fill values.
 > - Contact form was not being responsive on smaller laptop views. To overcome this, I included the form in a Bootstrap Grid layout.
-> - Bootstrap Carousel was being cut off at the bottom and allowed no space for Gallery heading. To overcome this I wrapped the carousel in its own Bootstrap Container. Added the Gallery heading above keeping the entire site consistent.
-> - Encountered an issue with Bootstrap mobile naivigation (hamburger menu) pushing content down when opened. This was further an issue on Firefox and Safari browsers, with content being pulled up and not positioned correctly when menu was collapsed again. To overcome this I started a new branch called 'Alternate-Nav-Menu' to work on an alternative. In CSS, I set the dropdown menu to `position:absolute` and adjusted width, background color and padding accordingly. However, this caused the nagivation bar to be misplaced when in desktop view (+992px). To overcome this, I added a media query of `position:relative` and `top:0px` which worked perfectly. I then merged the branch with the master branch.
-
+> - Was still not entirely happy with Carousel on mobile views and decided create a static gallery of images in mobile and tablet views instead.
+> - Bootstrap Carousel on desktop views was being cut off at the bottom and allowed no space for Gallery heading. To overcome this I wrapped the carousel in its own Bootstrap Container. Added the Gallery heading above keeping the entire site consistent.
+> - Encountered an issue with Bootstrap mobile navigation (hamburger menu) pushing content down when opened. This was further an issue on Firefox and Safari browsers, with content being pulled up and not positioned correctly when menu was collapsed again. To overcome this I started a new branch called 'Alternate-Nav-Menu' to work on an alternative. In CSS, I set the dropdown menu to `position:absolute` and adjusted width, background color and padding accordingly. However, this caused the nagivation bar to be misplaced when in desktop view (+992px). To overcome this, I added a media query of `position:relative` and `top:0px` which worked perfectly. I then merged the branch with the master branch with no conflicts.
+> - Bootstrap Hamburger menu was opening fine but once clicking a link, it wasn't closing. I researched this and found the answer on [Stack Overflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked)
 ---
 
 ### Code validity
@@ -299,6 +300,7 @@ This project has been deployed on GitHub Pages with the following process:
 > - [Shuva Mallick](https://jsfiddle.net/shuvamallick/3o0h5oka/) - Inspiration code for Submit button colour slide effect.
 > - ['djibe' on Stack Overflow](https://stackoverflow.com/questions/35868756/how-to-make-bootstrap-4-cards-the-same-height-in-card-columns) - Code idea for cards inside Jumbotron.
 > - [W3.org](https://www.w3.org/2005/10/howto-favicon) - How to add a Favicon to site.
+> - [Orel Eliyahu' on Stack Overflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked) for the code solution to closing hamburger menu once menu item clicked.
 
 ---
 
