@@ -89,7 +89,7 @@ This website project will target a large demographic of individuals and families
 #### 3. Structure
 
 > The main focus of the structure is to allow Users to quickly assimilate the information and imagery. 
-> Short, focussed paragraphs of content information to provide enough information, yet not overwhelm.
+> Short, focused paragraphs of content information to provide enough information, yet not overwhelm.
 > A selection of quality images to provide a taste of the trips and options offered.
 > Points of contact are provided via email contact form and links to Social Media in Footer.
 
@@ -122,7 +122,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 >
 > ###### Images
 >
-> The image selection has been carefully chosen to depict both relaxed road trips for beginners (to instil confidence in taking part as a newcomer); and more extreme 4x4 experiences for the advanced, familiar user.
+> The image selection has been carefully chosen to depict both relaxed road trips for beginners (to instill confidence in taking part as a newcomer); and more extreme 4x4 experiences for the advanced, familiar user.
 
 ---
 
@@ -178,9 +178,12 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 ##### 5. IDE Extensions used in GitPod
 
+> - Auto Close Tag
 > - Auto Nametag
-> - Bracket pair Colourizer
+> - Bracket Pair Colorizer
 > - Code Spellchecker
+> - Prettier - Code Formatter
+> - Indent-Rainbow
 
 ---
 
@@ -199,7 +202,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator.
 > - [Balsamiq](https://balsamiq.com/wireframes/) - Wireframing design tool.
 > - [Kevin Powell](https://www.youtube.com/watch?v=PHO6TBq_auI) Video tutorial on CSS Variables.
-> - [Bootsrap Grid Explaination by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - This was an invaluable resource for me to wrap my head around Grid layouts.
+> - [Bootsrap Grid Explanation by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - This was an invaluable resource for me to wrap my head around Grid layouts.
 ---
 
 ### Testing
@@ -209,12 +212,12 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - Tested **Logo text** in menu bar to ensure it points to the Home page.
 > - Tested **About, Gallery and Contact** links in menu bar to ensure it points to each page and position correctly.
 > - Tested **Social Media icons** in Footer to ensure they open the correct pages, and in a new tab on the browser.
-> - Tested **Contact Us** link on About page and ensured that it points to the Contact page on hte same site. 
+> - Tested **Contact Us** link on About page and ensured that it points to the Contact page on the same site. 
 > - Tested **Facebook Community Group** link on About page to ensure they open the correct page, and in a new tab on the browser.
 > - Tested **Carousel right and left arrows** and the right arrow moves to the next image and left arrow moves to the previous image as desired. 
-> - Tested **Carousel indicator bar** and images caqn be selected by their position by clicking on relevant bars.
-> - Tested **Send** button on Contact page withoput any text in inputs to ensure that it provides the desired error of 'Please fill out this field' to appropriate required fields.
-> - Tested **Email** entry input by not entering a valid email address. This provides the desired error of 'Please include an @ in hte email address'.
+> - Tested **Carousel indicator bar** and images can be selected by their position by clicking on relevant bars.
+> - Tested **Send** button on Contact page without any text in inputs to ensure that it provides the desired error of 'Please fill out this field' to appropriate required fields.
+> - Tested **Email** entry input by not entering a valid email address. This provides the desired error of 'Please include an @ in the email address'.
 > - Tested **Radio buttons** to ensure only _one option can be selected_ and that _at least one option_ is required.
 > - Further testing of Responsiveness of all pages using [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
 > - 1. [Home Page](https://search.google.com/test/mobile-friendly?id=xFabK99FmnLzZb1GxaoAQA)
@@ -241,7 +244,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - Contact form was not being responsive on smaller laptop views. To overcome this, I included the form in a Bootstrap Grid layout.
 > - Was still not entirely happy with Carousel on mobile views and decided create a static gallery of images in mobile and tablet views instead.
 > - Bootstrap Carousel on desktop views was being cut off at the bottom and allowed no space for Gallery heading. To overcome this I wrapped the carousel in its own Bootstrap Container. Added the Gallery heading above keeping the entire site consistent.
-> - Encountered an issue with Bootstrap mobile navigation (hamburger menu) pushing content down when opened. This was further an issue on Firefox and Safari browsers, with content being pulled up and not positioned correctly when menu was collapsed again. To overcome this I started a new branch called 'Alternate-Nav-Menu' to work on an alternative. In CSS, I set the dropdown menu to `position:absolute` and adjusted width, background color and padding accordingly. However, this caused the nagivation bar to be misplaced when in desktop view (+992px). To overcome this, I added a media query of `position:relative` and `top:0px` which worked perfectly. I then merged the branch with the master branch with no conflicts.
+> - Encountered an issue with Bootstrap mobile navigation (hamburger menu) pushing content down when opened. This was further an issue on Firefox and Safari browsers, with content being pulled up and not positioned correctly when menu was collapsed again. To overcome this I started a new branch called 'Alternate-Nav-Menu' to work on an alternative. In CSS, I set the drop-down menu to `position:absolute` and adjusted width, background color and padding accordingly. However, this caused the navigation bar to be misplaced when in desktop view (+992px). To overcome this, I added a media query of `position:relative` and `top:0px` which worked perfectly. I then merged the branch with the master branch with no conflicts.
 > - Bootstrap Hamburger menu was opening fine but once clicking a link, it wasn't closing. I researched this and found the answer on [Stack Overflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked)
 ---
 
@@ -274,8 +277,8 @@ This project has been deployed on GitHub Pages with the following process:
 > - Once selected, this publishes the project to GitHub Pages and displays the site url.
 > - There is no difference between the deployed version and the development version.
 > - The code can be run locally through clone or download.
-> - You can do this by opening the repository, clicking on the green 'Code' button and and selecting either 'clone or download'.
-> - The Clone option provides a url hat you can use on your desktop
+> - You can do this by opening the repository, clicking on the green 'Code' button and selecting either 'clone or download'.
+> - The Clone option provides a url, which you can use on your desktop IDE.
 > - The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
 
 ### Credits
@@ -291,7 +294,7 @@ This project has been deployed on GitHub Pages with the following process:
 >
 > ##### Bootstrap 4 CDN Boilerplate
 >
-> - I've taken advantage of _Simen Daehilin's_ template boilerplate from his [Marketplace](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet)
+> - I've taken advantage of _Simen Daehlin's_ template boilerplate from his [Marketplace](https://marketplace.visualstudio.com/items?itemName=eventyret.bootstrap-4-cdn-snippet)
 >
 > ##### Code Snippets
 >
@@ -311,7 +314,7 @@ This project has been deployed on GitHub Pages with the following process:
 > - My mentor, **Brian Macharia**, for his guidance, patience and encouragement throughout this project.
 > - **Bim Williams** and **Simen Daehlin** for their selfless approach to sharing of their time, experience, skill and knowledge. These sessions and casual chats have allowed me to grow my skill immensely in a short period of time.
 > - **CI staff** and **Slack Community** for always being on-hand with questions posted and assistance requests.
-> - Everyone that takes part in the Slack call meetups, specifically from the **#In-It-Together** and **#Study-Group** channels.
+> - Everyone that takes part in the Slack calls, specifically from the **#In-It-Together** and **#Study-Group** channels.
 
 ### Support
 
