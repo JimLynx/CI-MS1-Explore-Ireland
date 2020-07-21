@@ -199,7 +199,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - [Am I Responsive](http://ami.responsivedesign.is/) - Responsive website mockup image generator.
 > - [Balsamiq](https://balsamiq.com/wireframes/) - Wireframing design tool.
 > - [Kevin Powell](https://www.youtube.com/watch?v=PHO6TBq_auI) Video tutorial on CSS Variables.
-
+> - [Bootsrap Grid Explaination by Anna Greaves](https://ajgreaves.github.io/bootstrap-grid-demo/) - This was an invaluable resource for me to wrap my head around Grid layouts.
 ---
 
 ### Testing
@@ -208,10 +208,13 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 > - Tested responsiveness of the wireframe using Dev Tools and confirmed basic structure looks and works well on all mobile decides from 320px, up to desktop size.
 > - Tested **Logo text** in menu bar to ensure it points to the Home page.
 > - Tested **About, Gallery and Contact** links in menu bar to ensure it points to each page and position correctly.
-> - Tested **Social Media icons** in Footer to ensure they open pages correctly and in new tab on browser.
-> - Tested **Contact Us** and **Facebook Community Group** a tags on About page to ensure they open pages correctly and in new tab on browser.
-> - Tested **Carousel right and left arrows** and **indicator bar** to ensure all is working properly.
-> - Tested **Send** button on Contact page to ensure it gives 'Please fill out this field' to appropriate required fields.
+> - Tested **Social Media icons** in Footer to ensure they open the correct pages, and in a new tab on the browser.
+> - Tested **Contact Us** link on About page and ensured that it points to the Contact page on hte same site. 
+> - Tested **Facebook Community Group** link on About page to ensure they open the correct page, and in a new tab on the browser.
+> - Tested **Carousel right and left arrows** and the right arrow moves to the next image and left arrow moves to the previous image as desired. 
+> - Tested **Carousel indicator bar** and images caqn be selected by their position by clicking on relevant bars.
+> - Tested **Send** button on Contact page withoput any text in inputs to ensure that it provides the desired error of 'Please fill out this field' to appropriate required fields.
+> - Tested **Email** entry input by not entering a valid email address. This provides the desired error of 'Please include an @ in hte email address'.
 > - Tested **Radio buttons** to ensure only _one option can be selected_ and that _at least one option_ is required.
 > - Further testing of Responsiveness of all pages using [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
 > - 1. [Home Page](https://search.google.com/test/mobile-friendly?id=xFabK99FmnLzZb1GxaoAQA)
@@ -231,12 +234,13 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 
 ---
 
-### Project barriers and the solutions
+### Project barriers and solutions
 
-> - Bootstrap carousel works fine on desktop views with landscape images, but on mobile created large white space underneath. I overcame this by creating a static gallery of images in mobile and tablet views.
+> - Bootstrap carousel works fine on desktop views with landscape images, but on mobile created large white space underneath. To overcome this I started a new branch called 'Gallery-carousel'. I creatined a static gallery of images in mobile and tablet views and once tested, I then merged the branch with the master branch.
 > - About Section 'cards' were aligning fine, but uneven bottom according to how much text entered in each. Overcame by researching online and finding a workable solution on Stack Overflow using Bootstrap's d-flex and flex-fill values.
 > - Contact form was not being responsive on smaller laptop views. To overcome this, I included the form in a Bootstrap Grid layout.
 > - Bootstrap Carousel was being cut off at the bottom and allowed no space for Gallery heading. To overcome this I wrapped the carousel in its own Bootstrap Container. Added the Gallery heading above keeping the entire site consistent.
+> - Encountered an issue with Bootstrap mobile naivigation (hamburger menu) pushing content down when opened. This was further an issue on Firefox and Safari browsers, with content being pulled up and not positioned correctly when menu was collapsed again. To overcome this I started a new branch called 'Alternate-Nav-Menu' to work on an alternative. In CSS, I set the dropdown menu to `position:absolute` and adjusted width, background color and padding accordingly. However, this caused the nagivation bar to be misplaced when in desktop view (+992px). To overcome this, I added a media query of `position:relative` and `top:0px` which worked perfectly. I then merged the branch with the master branch.
 
 ---
 
@@ -253,7 +257,7 @@ I've decided on a relaxed, yet exciting visual experience reflecting nature and 
 ### Version Control
 
 > - Used Git for version control.
-> - Branches were created to work on side projects to incorporate later.
+> - Branches were created to work on alternative fixes to issues encountered.
 > - The branches were then merged with the master branch after any conflicts were addressed.
 
 ---

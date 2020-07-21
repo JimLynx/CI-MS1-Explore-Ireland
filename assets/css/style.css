@@ -94,6 +94,21 @@ section {
   padding: 8px 16px;
 }
 
+/*--- Alternate toggler menu drop-down ---*/
+.navbar-nav {
+    padding-left: 15px;
+}
+
+#navbarNav {
+  position: absolute;
+  width: 100%;
+  top:50px;
+  background-color: var(--primary-bg-clr); 
+  left: 0px;
+  z-index: 1;
+}
+/*--- End - Alternate toggler menu drop-down ---*/
+
 .navbar-brand {
   font-family: "Varela Round", Verdana;
   font-weight: 500;
@@ -455,6 +470,8 @@ footer {
 
 @media only screen and (min-width: 992px) {
   #navbarNav {
+    position: relative;
+    top: 0px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
